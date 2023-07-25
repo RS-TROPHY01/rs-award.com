@@ -1,0 +1,4 @@
+<template>
+    acrylic
+    <product/>
+</template>
