@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>โล่รางวัลอะคริลิคสำเร็จรูป</title>
+        <title>RS AWARD | โล่รางวัลอะคริลิคสำเร็จรูป</title>
         <meta name="description" content="โล่รางวัลอะคริลิคสำเร็จรูป" />
         <meta
           name="keywords"

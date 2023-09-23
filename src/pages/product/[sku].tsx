@@ -29,7 +29,7 @@ const ProductPage: React.FC<{ product: ProductProps }> = ({ product }) => {
   return (
     <>
       <Head>
-        <title>{product.sku}</title>
+        <title>RS AWARD | {product.sku}</title>
         <meta name="description" content={product.sku} />
         <meta name="keywords" content={product.sku} />
       </Head>

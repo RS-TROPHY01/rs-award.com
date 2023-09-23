@@ -4,14 +4,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RS AWARD | จัดจำหน่ายโล่รางวัล | โล่รางวัลราคาโรงงาน</title>
-        <meta
-          name="description"
-          content="RS AWARD จัดจำหน่ายโล่รางวัลราคาโรงงาน"
-        />
+        <title>RS AWARD | กล่องโล่รางวัล</title>
+        <meta name="description" content="กล่องโล่รางวัล" />
         <meta
           name="keywords"
-          content="โล่รางวัล, โล่รางวัลอะคริลิค, โล่รางวัลอะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสำเร็จรูป, โล่รางวัลไม้, โล่รางวัลคริสตัล, RS AWARD, AWARD"
+          content="โล่รางวัล, กล่องโล่รางวัล, RS AWARD, AWARD"
         />
       </Head>
       <div>

@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ติดต่อเรา</title>
+        <title>RS AWARD | ติดต่อเรา</title>
         <meta name="description" content="ติดต่อเรา" />
         <meta name="keywords" content="ติดต่อเรา" />
       </Head>

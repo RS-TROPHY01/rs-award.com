@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>โล่รางวัลอะคริลิคสำเร็จรูป</title>
-        <meta name="description" content="โล่รางวัลอะคริลิคสำเร็จรูป" />
+        <title>RS AWARD | โล่รางวัลอะคริลิคสั่งทำ</title>
+        <meta name="description" content="โล่รางวัลอะคริลิคสั่งทำ" />
         <meta
           name="keywords"
-          content="โล่รางวัล, โล่รางวัลอะคริลิค, โล่รางวัลอะคริลิคสำเร็จรูป, RS AWARD, AWARD"
+          content="โล่รางวัล, โล่รางวัลอะคริลิค, โล่รางวัลอะคริลิคสั่งทำ, RS AWARD, AWARD"
         />
       </Head>
       <div className="mx-auto container">
