@@ -1,9 +1,0 @@
-.page-enter-active,
-.page-leave-active {
-  transition: filter 0.5s;
-}
-
-.page-enter,
-.page-leave-to {
-  filter: blur(20px);
-}

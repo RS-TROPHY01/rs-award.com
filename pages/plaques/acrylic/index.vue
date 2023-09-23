@@ -1,4 +1,0 @@
-<template>
-    acrylic
-    <product/>
-</template>
