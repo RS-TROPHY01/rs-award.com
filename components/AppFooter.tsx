@@ -13,40 +13,16 @@ const OtherProducts = [
     href: "https://www.rs-award.com/",
   },
 ];
-const Questions = [
-  {
-    name: "ราคาโล่คริสตัล",
-    href: "/crystal",
-  },
-  {
-    name: "ราคาโล่อะคริลิคสำเร็จรูป",
-    href: "/acrylic/finished",
-  },
-  {
-    name: "ราคาโล่อะคริลิคสั่งทำ",
-    href: "/acrylic/custom",
-  },
-];
 export default function AppHeader() {
   return (
     <footer className="shadow bg-gray-900 bottom-0">
-      <div className="grid grid-cols-2 lg:grid-cols-4 text-white mx-auto text-center p-4">
-        <div className="text-center mx-auto my-auto ">
+      <div className="grid grid-cols-2 lg:grid-cols-3 text-white mx-auto text-center p-4">
+        <div className="text-center mx-auto my-auto col-span-2 lg:col-span-1">
           <h5 className="text-center p-2 font-bold text-2xl">สินค้าอื่นๆ</h5>
           {OtherProducts.map((OtherProduct) => (
             <div className="p-1" key={OtherProduct.name}>
               <Link href={OtherProduct.href} className="hover:text-blue-500">
                 <h6 className="font-bold text-xl">{OtherProduct.name}</h6>
-              </Link>
-            </div>
-          ))}
-        </div>
-        <div className="text-center mx-auto my-auto">
-          <h4 className="text-center p-2 font-bold text-2xl">คำถามที่พบบ่อย</h4>
-          {Questions.map((Question) => (
-            <div className="p-1" key={Question.name}>
-              <Link href={Question.href} className="hover:text-blue-500">
-                <h6 className="font-bold text-xl">{Question.name}</h6>
               </Link>
             </div>
           ))}
