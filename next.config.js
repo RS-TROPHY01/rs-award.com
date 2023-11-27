@@ -1,13 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 const nextConfig = {
-  output: "export",
-  compress: false,
-  images: {
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    formats: ["image/webp"],
-    unoptimized: true,
-  },
   eslint: {
     dirs: ["."],
   },
