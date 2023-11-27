@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 const nextConfig = {
+  output: "export",
   eslint: {
     dirs: ["."],
   },
