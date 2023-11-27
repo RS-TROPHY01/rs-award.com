@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 const features = [
   { name: "โล่รางวัลคริสตัล", description: "โล่รางวัลคริสตัล" },
   {
@@ -70,7 +69,7 @@ const Awards: React.FC = () => {
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           {images.map((image) => (
             <div className="relative h-full" key={image.key}>
-              <Image
+              <img
                 src={image.src}
                 alt={image.alt}
                 width="0"
