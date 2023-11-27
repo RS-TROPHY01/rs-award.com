@@ -35,8 +35,7 @@ export const socials = [
 export function SocialBar() {
   return (
     <div className="mx-auto rounded-t-lg shadow bg-gray-900 sticky bottom-0 w-full py-1">
-      <p className="text-center text-white">ติดต่อได้ที่</p>
-      <div className="mx-auto max-w-screen-xl px-4 flex justify-center items-center w-full h-full">
+      <div className="mx-auto max-w-screen-xl px-3 flex justify-center items-center w-full h-full">
         <div className="flex-shrink-0 flex items-center space-x-4 md:space-x-0">
           {socials.map((social, index) => (
             <Link
