@@ -4,7 +4,7 @@ export default function Example() {
   const links = [{ text: "หน้าแรก", href: "/" }];
 
   return (
-    <header className="w-full sticky top-0 z-50">
+    <header className="w-full bg-white sticky top-0 z-50">
       <Link
         href={"/"}
         className="flex items-center font-medium text-gray-900 title-font transition-transform duration-300 hover:scale-110"
