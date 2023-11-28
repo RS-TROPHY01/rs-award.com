@@ -15,14 +15,18 @@ const OtherProducts = [
 ];
 export default function AppHeader() {
   return (
-    <footer className="shadow bg-gray-900 bottom-0">
+    <footer className="shadow bg-gray-900 bottom-0 ">
       <div className="grid grid-cols-2 lg:grid-cols-3 text-white mx-auto text-center p-4">
         <div className="text-center mx-auto my-auto col-span-2 lg:col-span-1">
-          <h5 className="text-center p-2 font-bold text-2xl">สินค้าอื่นๆ</h5>
+          <h5 className="text-center p-2 font-bold text-2xl text-white">
+            สินค้าอื่นๆ
+          </h5>
           {OtherProducts.map((OtherProduct) => (
-            <div className="p-1" key={OtherProduct.name}>
+            <div className="p-1 " key={OtherProduct.name}>
               <Link href={OtherProduct.href} className="hover:text-blue-500">
-                <h6 className="font-bold text-xl">{OtherProduct.name}</h6>
+                <h6 className="font-bold text-xl text-white">
+                  {OtherProduct.name}
+                </h6>
               </Link>
             </div>
           ))}
