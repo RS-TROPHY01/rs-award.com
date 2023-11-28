@@ -1,11 +1,33 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "sqlite"
-  url      = env("file:./mydatabase.db")
+  url      = env("DATABASE_URL")
+}
+
+model Role {
+  name       String  @id @unique
+  blogAccess Boolean
+  User       User[]
+}
+
+model User {
+  name      String   @id
+  password  String
+  role      Role[]
+  blogs     Blog[]
+  createdAt DateTime @default(now())
+  updateAt  DateTime @default(now())
+}
+
+model Blog {
+  link        String   @id @unique
+  title       String
+  description String
+  content     String
+  User        User[]
+  createdAt   DateTime @default(now())
+  updateAt    DateTime @default(now())
 }
