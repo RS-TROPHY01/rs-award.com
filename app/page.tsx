@@ -1,22 +1,22 @@
 import Link from "next/link";
 const images = [
   {
-    name: "โล่รางวัลคริสตัล",
+    name: "โล่คริสตัล",
     link: "/crystal",
     description: "",
     src: "/test/800450.png",
     alt: "",
   },
   {
-    name: "โล่รางวัลอะคริลิค",
-    link: "/acrylic",
+    name: "โล่อะคริลิคสำเร็จรูป",
+    link: "/acrylic/finished",
     description: "",
     src: "/test/800450.png",
     alt: "",
   },
   {
-    name: "โล่รางวัลอะคริลิค",
-    link: "/acrylic",
+    name: "โล่อะคริลิคสั่งทำ",
+    link: "/acrylic/custom",
     description: "",
     src: "/test/800450.png",
     alt: "",
