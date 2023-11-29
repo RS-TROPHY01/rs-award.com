@@ -1,8 +1,12 @@
 import Link from "next/link";
 
 export default function Example() {
-  const links = [{ text: "หน้าแรก", href: "/" }];
-
+  const links = [
+    { text: "หน้าแรก", href: "/" },
+    { text: "โล่คริสตัล", href: "/crystal" },
+    { text: "โล่อะคริลิคสำเร็จรูป", href: "/acrylic/finished" },
+    { text: "โล่อะคริลิคสั่งทำ", href: "/acrylic/custom" },
+  ];
   return (
     <header className="w-full bg-white sticky top-0 z-50">
       <Link
@@ -20,6 +24,13 @@ export default function Example() {
           <h2 className="my-auto">RS AWARD</h2>
         </div>
       </Link>
+      <div className="text-center">
+        {links.map((link, index) => (
+          <Link href={link.href} key={index} className="px-2">
+            {link.text}
+          </Link>
+        ))}
+      </div>
     </header>
   );
 }
