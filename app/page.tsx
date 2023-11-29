@@ -1,4 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "RS AWARD | โล่รางวัล",
+  description: "RS AWARD โล่รางวัล",
+  keywords:
+    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, โล่อะคริลิค, โล่รางวัลอะคริลิค",
+};
 const images = [
   {
     name: "โล่คริสตัล",

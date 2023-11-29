@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "ราคาโล่รางวัลอะคริลิคสั่งทำ",
+  description: "ราคาโล่รางวัลอะคริลิคสั่งทำ",
+  keywords:
+    "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
+};
 let cs = [{ src: "0" }];
 for (let i = 1; i <= 13; i++) {
   cs.push({

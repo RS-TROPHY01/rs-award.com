@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "ราคาโล่รางวัลคริสตัล ",
+  description: "ราคาโล่รางวัลคริสตัล",
+  keywords:
+    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, ราคาโล่รางวัลคริสตัล",
+};
 let photos = [{ src: "1" }];
 for (let i = 2; i <= 10; i++) {
   photos.push({
