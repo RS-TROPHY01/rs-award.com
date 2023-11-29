@@ -1,4 +1,5 @@
 const nextConfig = {
+  output: "export",
   eslint: {
     dirs: ["."],
   },
@@ -11,7 +12,7 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     DATABASE_URL: "file:./mydatabase.db",
-    NEXTAUTH_SECRET: "mu+exEGiYXBp4PT8oX0DRCp3d89VReo4hAp7HmqTJAI="
+    NEXTAUTH_SECRET: "mu+exEGiYXBp4PT8oX0DRCp3d89VReo4hAp7HmqTJAI=",
   },
 };
 module.exports = nextConfig;
