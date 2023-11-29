@@ -1,7 +1,4 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
 const nextConfig = {
-  output: "export",
   eslint: {
     dirs: ["."],
   },
@@ -12,5 +9,9 @@ const nextConfig = {
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
+  env: {
+    DATABASE_URL: "file:./mydatabase.db",
+    NEXTAUTH_SECRET: "mu+exEGiYXBp4PT8oX0DRCp3d89VReo4hAp7HmqTJAI="
+  },
 };
 module.exports = nextConfig;
