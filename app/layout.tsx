@@ -20,8 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* Google Tag Manager */}
+
         <Script
           id="googletagmanager"
           dangerouslySetInnerHTML={{
@@ -39,15 +40,13 @@ export default function RootLayout({
           }}
           strategy="lazyOnload"
         />
-
         {/* End Google Tag Manager */}
-      </Head>
+      </head>
       <body className={inter.className + " bg-white "}>
         <AppHeader />
         <main className="mx-auto max-w-7xl">{children}</main>
         <SocialBar />
         <AppFooter />
-        <NextScript />
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
