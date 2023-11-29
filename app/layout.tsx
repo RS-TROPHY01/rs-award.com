@@ -19,10 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + " bg-white mx-auto"}>
+      <body className={inter.className + " bg-white "}>
         <AppHeader />
-
-        {children}
+        <main className="mx-auto max-w-7xl">{children}</main>
         <SocialBar />
         <AppFooter />
       </body>
