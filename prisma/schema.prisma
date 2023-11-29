@@ -14,7 +14,8 @@ model Role {
 }
 
 model User {
-  name      String   @id
+  id        String   @id @unique
+  name      String   @unique
   password  String
   role      Role[]
   blogs     Blog[]
