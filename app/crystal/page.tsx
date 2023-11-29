@@ -11,7 +11,7 @@ export default function Crystal() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {photos.map((photo, index) => (
           <div key={index}>
-            <img src={"/catalog/finished_acrylic/" + photo.src + ".jpg"} />
+            <img src={"/catalog/finished_crystal/" + photo.src + ".jpg"} />
           </div>
         ))}
       </div>
