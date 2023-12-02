@@ -14,7 +14,13 @@ for (let i = 2; i <= 13; i++) {
 export default function finished() {
   return (
     <div>
-      <h1 className="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
+      <div>
+        <h1 className="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
+        <div className="mx-auto">
+          บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสำเร็จรูป
+          โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
+        </div>
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {fs.map((f, index) => (
           <div key={index}>

@@ -14,7 +14,13 @@ for (let i = 2; i <= 10; i++) {
 export default function Crystal() {
   return (
     <main>
-      <h1 className="text-center py-2">โล่รางวัลคริสตัล</h1>
+      <div>
+        <h1 className="text-center py-2">โล่รางวัลคริสตัล</h1>
+        <div className="mx-auto">
+          บริษัทจัดจำหน่ายโล่รางวัลคริสตัล
+          โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
+        </div>
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {photos.map((photo, index) => (
           <div key={index}>
