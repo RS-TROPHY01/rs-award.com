@@ -4,8 +4,7 @@ export default function Example() {
   const links = [
     { text: "หน้าแรก", href: "/" },
     { text: "โล่คริสตัล", href: "/crystal" },
-    { text: "โล่อะคริลิคสำเร็จรูป", href: "/acrylic/finished" },
-    { text: "โล่อะคริลิคสั่งทำ", href: "/acrylic/custom" },
+    { text: "โล่อะคริลิค", href: "/acrylic" },
   ];
   return (
     <header className="w-full bg-white sticky top-0 z-50">
