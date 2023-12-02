@@ -21,7 +21,7 @@ export default function Acrylic() {
   return (
     <div>
       <div id="finished">
-        <h1 className="text-center">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
+        <h1 className="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
           {fs.map((f, index) => (
             <div key={index}>

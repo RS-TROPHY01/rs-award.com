@@ -14,7 +14,7 @@ for (let i = 1; i <= 13; i++) {
 export default function Custom() {
   return (
     <div>
-      <h1 className="text-center">โล่รางวัลอะคริลิคสั่งทำ</h1>
+      <h1 className="text-center py-2">โล่รางวัลอะคริลิคสั่งทำ</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {cs.map((c, index) => (
           <div key={index}>
