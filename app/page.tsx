@@ -49,7 +49,7 @@ export default function Home() {
             <h2 className="text-3xl text-gray-900 sm:text-4xl mx-auto">
               RS AWARD โล่รางวัลคุณภาพดี
             </h2>
-            <p className="mt-4 text-gray-500  text mx-auto">
+            <p className="mt-4 text-gray-500 mx-auto">
               บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน
               มีให้เลือกทั้งโล่รางวัลคริสตัล โล่รางวัลอะคริลิคสำเร็จรูป
               โล่รางวัลอะคริลิคสั่งทำ
