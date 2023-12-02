@@ -45,14 +45,15 @@ export default function Home() {
       </div>
       <div className="bg-white py-4">
         <div className="mx-auto items-center gap-x-8 gap-y-16 p-2 lg:px-8">
-          <div className="">
-            <h2 className="text-3xl tracking-tight text-gray-900 sm:text-4xl">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="text-3xl text-gray-900 sm:text-4xl mx-auto">
               RS AWARD โล่รางวัลคุณภาพดี
             </h2>
-            <p className="mt-4 text-gray-500 ">
-              บริษัทจัดจำหน่ายโล่รางวัลราคาถูกและดี โดยเรามีทั้งในรูปแบบหน้าร้าน
-              และออนไลน์
-              อีกทั้งยังมีร้านในเครือให้คุณได้เลือกใช้บริการในหลากหลาย
+            <p className="mt-4 text-gray-500  text mx-auto">
+              บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน
+              มีให้เลือกทั้งโล่รางวัลคริสตัล โล่รางวัลอะคริลิคสำเร็จรูป
+              โล่รางวัลอะคริลิคสั่งทำ
+              โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
             </p>
           </div>
           <div className="py-4">
