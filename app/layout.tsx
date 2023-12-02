@@ -37,7 +37,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className + " bg-white "}>
         <AppHeader />
-        <main className="mx-auto max-w-7xl">{children}</main>
+        <main className="mx-auto max-w-6xl">{children}</main>
         <SocialBar />
         <AppFooter />
         {/* Google Tag Manager (noscript) */}
