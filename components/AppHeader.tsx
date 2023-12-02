@@ -21,7 +21,7 @@ export default function Example() {
             height="50px"
             className="my-auto"
           />
-          <h2 className="my-auto">RS AWARD</h2>
+          <h2 className="my-auto text">RS AWARD</h2>
         </div>
       </Link>
       <div className="text-center">
