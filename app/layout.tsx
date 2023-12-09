@@ -4,8 +4,11 @@ import AppHeader from "@/components/AppHeader";
 import AppFooter from "@/components/AppFooter";
 import { SocialBar } from "@/components/SocialBar";
 import Script from "next/script";
+import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
-
+export const metadata: Metadata = {
+  icons: "/favicon.ico",
+};
 export default function RootLayout({
   children,
 }: {
