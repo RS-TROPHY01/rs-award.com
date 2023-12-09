@@ -14,6 +14,44 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "RS AWARD",
+    legalName: "RUAMSUK PLATING LIMITED PARTNERSHIP",
+    url: "http://www.rs-award.com",
+    logo: "http://www.rs-award.com/favicon.ico",
+    foundingDate: "2006",
+    founders: [
+      {
+        "@type": "Person",
+        name: "Sombut Thammasorn",
+      },
+      {
+        "@type": "Person",
+        name: "Sukanya Puangsorn",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Tiwanon Road",
+      addressLocality: "Pathum Thani",
+      addressRegion: "TH",
+      postalCode: "12000",
+      addressCountry: "Thailand",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      telephone: ["+66-64-937-0011", "+66-64-937-0033", "+66-64-937-0066"],
+      email: ["ruamsukplating@gmail.com", "ruamsukplating@hotmail.com"],
+    },
+    sameAs: [
+      "http://www.rs-trophy.com",
+      "http://www.rs-medal.com",
+      "https://www.facebook.com/RSTrophy01",
+    ],
+  };
   return (
     <html lang="en">
       <head>
@@ -36,6 +74,10 @@ export default function RootLayout({
           strategy="lazyOnload"
         />
         {/* End Google Tag Manager */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body className={inter.className + " bg-white "}>
         <AppHeader />
