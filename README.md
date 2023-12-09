@@ -1,36 +1,38 @@
 # rs-award.com for RUAMSUK PLATING LIMITED PARTNERSHIP
 
-## Install
+## command
+
+Install
 
 ```bash
 npm install
 ```
 
-## Code quality check
+Code quality check
 
 ```bash
 npm run lint
 ```
 
-## Format
+Format
 
 ```bash
 npm run format
 ```
 
-## Development
+Development
 
 ```bash
 npm run dev
 ```
 
-## Build
+Build
 
 ```bash
 npm run build
 ```
 
-## Build test
+Build test
 
 ```bash
 npm run start
