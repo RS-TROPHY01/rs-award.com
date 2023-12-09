@@ -15,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google Tag Manager */}
-
         <Script
           id="googletagmanager"
           dangerouslySetInnerHTML={{
