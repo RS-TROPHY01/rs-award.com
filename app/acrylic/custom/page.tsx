@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  description: "ราคาโล่รางวัลอะคริลิคสั่งทำ",
+  description:
+    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสั่งทำโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
 };
@@ -14,7 +15,7 @@ for (let i = 1; i <= 13; i++) {
 export default function Custom() {
   return (
     <div>
-      <div>
+      <div className="mx-auto max-w-4xl">
         <h1 className="text-center py-2">โล่รางวัลอะคริลิคสั่งทำ</h1>
         <div className="mx-auto">
           บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสั่งทำ

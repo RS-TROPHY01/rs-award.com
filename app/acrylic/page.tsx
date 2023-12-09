@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 export const metadata: Metadata = {
   title: "ราคาโล่รางวัลอะคริลิค",
-  description: "ราคาโล่รางวัลอะคริลิค",
+  description:
+    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, ราคาโล่รางวัลอะคริลิค",
 };
@@ -25,7 +26,13 @@ const images = [
 export default function Acrylic() {
   return (
     <div className="py-4">
-      <h1 className="text-center">โล่รางวัลอะคริลิค</h1>
+      <div className="mx-auto max-w-4xl">
+        <h1 className="text-center">โล่รางวัลอะคริลิค</h1>
+        <div className="mx-auto">
+          บริษัทจัดจำหน่ายโล่รางวัลอะคริลิค
+          โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
+        </div>
+      </div>
       <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 py-2">
         {images.map((image) => (
           <div

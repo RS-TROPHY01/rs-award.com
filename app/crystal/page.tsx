@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "ราคาโล่รางวัลคริสตัล ",
-  description: "ราคาโล่รางวัลคริสตัล",
+  description:
+    "บริษัทจัดจำหน่ายโล่รางวัลคริสตัลโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   keywords:
     "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, ราคาโล่รางวัลคริสตัล",
 };
@@ -14,7 +15,8 @@ for (let i = 2; i <= 10; i++) {
 export default function Crystal() {
   return (
     <main>
-      <div>
+      <div className="mx-auto max-w-4xl">
+        {" "}
         <h1 className="text-center py-2">โล่รางวัลคริสตัล</h1>
         <div className="mx-auto">
           บริษัทจัดจำหน่ายโล่รางวัลคริสตัล
