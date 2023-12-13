@@ -5,30 +5,33 @@ export default function Example() {
     { text: "หน้าแรก", href: "/" },
     { text: "โล่คริสตัล", href: "/crystal" },
     { text: "โล่อะคริลิค", href: "/acrylic" },
+    { text: "บทความ", href: "/blog" },
   ];
   return (
-    <header className="w-full bg-white sticky top-0 z-50">
-      <Link
-        href={"/"}
-        className="flex items-center font-medium text-gray-900 title-font transition-transform duration-300 hover:scale-110"
-      >
-        <div className="flex gap-2 mx-auto">
-          <img
-            src="\logo\RSTROPHY.ico"
-            alt="RS AWARD Logo"
-            width="50px"
-            height="50px"
-            className="my-auto"
-          />
-          <h2 className="my-auto text">RS AWARD</h2>
-        </div>
-      </Link>
-      <div className="text-center">
-        {links.map((link, index) => (
-          <Link href={link.href} key={index} className="px-2">
-            {link.text}
-          </Link>
-        ))}
+    <header className="w-full bg-white sticky top-0 z-50 mx-auto">
+      <div className="max-w-7xl grid grid-1 md:grid-cols-3 mx-auto">
+        <Link
+          href={"/"}
+          className="flex items-center font-medium text-gray-900 title-font m-auto"
+        >
+          <div className="flex gap-2 mx-auto">
+            <img
+              src="\logo\RSTROPHY.ico"
+              alt="RS MEDAL Logo"
+              width="40px"
+              height="40px"
+              className="m-auto"
+            />
+            <h2 className="m-auto font-bold">RS MEDAL</h2>
+          </div>
+        </Link>
+        <span className="text-center m-auto col-span-1 md:col-span-2">
+          {links.map((link, index) => (
+            <Link href={link.href} key={index} className="px-2">
+              {link.text}
+            </Link>
+          ))}
+        </span>
       </div>
     </header>
   );
