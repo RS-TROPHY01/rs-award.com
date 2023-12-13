@@ -1,5 +1,8 @@
 import Link from "next/link";
-import type { Metadata } from "next";
+import type { GetStaticProps, Metadata, NextPage } from "next";
+import { Article } from "@/components/interface/blog";
+import { articles } from "@/components/data/blog";
+import BlogPreview from "@/components/BlogPreview";
 export const metadata: Metadata = {
   title:
     "RS AWARD | จัดจำหน่าย โล่รางวัลคริสตัล โล่อะคริลิค คุณภาพดีแข็งแรงทนทาน",
@@ -31,7 +34,10 @@ const images = [
     alt: "",
   },
 ];
-export default function Home() {
+interface HomeProps {
+  articles: Article[];
+}
+const Home: NextPage<HomeProps> = ({ articles }) => {
   return (
     <main>
       <div className="relative h-full">
@@ -82,6 +88,19 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <h2 className="text-center">บทความโล่รางวัล</h2>
+        <BlogPreview articles={articles} />
+      </div>
     </main>
   );
-}
+};
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  const fetchedArticles = articles;
+  return {
+    props: {
+      articles: fetchedArticles,
+    },
+  };
+};
+export default Home;
