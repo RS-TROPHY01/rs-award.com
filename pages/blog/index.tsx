@@ -7,10 +7,10 @@ interface HomeProps {
   articles: Article[];
 }
 export const metadata: Metadata = {
-  title: "RS MEDAL | บทความ",
+  title: "RS AWARD | บทความ",
   description:
-    "บริษัทจัดจำหน่ายเหรียญรางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  keywords: "RS MEDAL, เหรียญรางวัล",
+    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
+  keywords: "RS MEDAL, โล่รางวัล",
 };
 
 const Home: NextPage<HomeProps> = ({ articles }) => {
