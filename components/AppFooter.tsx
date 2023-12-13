@@ -53,7 +53,7 @@ export default function AppHeader() {
       </div>
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-4">
         <span className="block text-sm sm:text-center text-gray-400">
-          © 2023 <Link href="/">RS MEDAL</Link>. All Rights Reserved.
+          © 2023 <Link href="/">RS AWARD</Link>. All Rights Reserved.
         </span>
       </div>
     </footer>

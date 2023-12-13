@@ -22,7 +22,7 @@ export default function Example() {
               height="40px"
               className="m-auto"
             />
-            <h2 className="m-auto font-bold">RS MEDAL</h2>
+            <h2 className="m-auto font-bold">RS AWARD</h2>
           </div>
         </Link>
         <span className="text-center m-auto col-span-1 md:col-span-2">
