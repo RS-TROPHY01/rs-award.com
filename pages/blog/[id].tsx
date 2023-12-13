@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { articles } from "@/components/data/blog";
 import { Article } from "@/components/interface/blog"; // Adjust the path accordingly
+import Head from "next/head"; // Import Head from next/head for updating the document head
 
 interface ArticlePageProps {
   article: Article;
@@ -13,15 +14,22 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ article }) => {
   }
 
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-1">
-      <div>
-        <img src={article.src} />
+    <>
+      <Head>
+        <title>{"RS AWARD | บทความ" + article.title}</title>
+        <meta name="description" content={article.description} />
+        <meta name="keywords" content={article.title + ", บทความโล่รางวัล"} />
+      </Head>
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 p-1">
+        <div>
+          <img src={article.src} />
+        </div>
+        <div>
+          <h1 className="text-center p-1">{article.title}</h1>
+          <p className="p-1">{article.content}</p>
+        </div>
       </div>
-      <div>
-        <h1 className="text-center p-1">{article.title}</h1>
-        <p className="p-1">{article.content}</p>
-      </div>
-    </div>
+    </>
   );
 };
 
