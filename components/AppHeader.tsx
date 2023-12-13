@@ -5,6 +5,7 @@ export default function Example() {
     { text: "หน้าแรก", href: "/" },
     { text: "โล่คริสตัล", href: "/crystal" },
     { text: "โล่อะคริลิค", href: "/acrylic" },
+    { text: "เกี่ยวกับเรา", href: "/aboutus" },
     { text: "บทความ", href: "/blog" },
   ];
   return (
