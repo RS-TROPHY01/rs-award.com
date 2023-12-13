@@ -16,7 +16,6 @@ export default function Crystal() {
   return (
     <main>
       <div className="mx-auto max-w-4xl">
-        {" "}
         <h1 className="text-center py-2">โล่รางวัลคริสตัล</h1>
         <div className="mx-auto">
           บริษัทจัดจำหน่ายโล่รางวัลคริสตัล
