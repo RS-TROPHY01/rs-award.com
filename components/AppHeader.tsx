@@ -3,8 +3,7 @@ import Link from "next/link";
 export default function Example() {
   const links = [
     { text: "หน้าแรก", href: "/" },
-    { text: "โล่คริสตัล", href: "/crystal" },
-    { text: "โล่อะคริลิค", href: "/acrylic" },
+    { text: "โล่รางวัล", href: "/award" },
     { text: "เกี่ยวกับเรา", href: "/aboutus" },
     { text: "บทความ", href: "/blog" },
   ];
