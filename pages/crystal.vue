@@ -10,7 +10,7 @@
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
       <div v-for="(photo, index) in photos" :key="index">
         <img
-          :src="'/catalog/finished_crystal/' + photo.src + '.jpg'"
+          :src="'/catalog/finished_crystal/' + photo.src + '.webp'"
           alt="โล่รางวัลคริสตัล"
         />
       </div>

@@ -9,7 +9,7 @@
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
       <div v-for="(f, index) in fs" :key="index">
         <img
-          :src="'/catalog/finished_acrylic/' + f.src + '.jpg'"
+          :src="'/catalog/finished_acrylic/' + f.src + '.webp'"
           alt="โล่รางวัลอะคริลิคสำเร็จรูป"
         />
       </div>
