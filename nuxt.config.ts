@@ -12,5 +12,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "nuxt-gtag"],
+  gtag: {
+    id: "GTM-M86WK6ZW",
+  },
 });
