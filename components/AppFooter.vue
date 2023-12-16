@@ -5,19 +5,19 @@
     >
       <div class="text-center mx-auto my-auto col-span-1">
         <p class="text-center p-2 font-bold text-2xl text-white">สินค้าอื่นๆ</p>
-        <div v-for="product in otherProducts" :key="product.name" class="p-1">
-          <a :href="product.href" class="hover:text-blue-500">
-            <h6 class="font-bold text-xl text-white">{{ product.name }}</h6>
-          </a>
-        </div>
+        <ul v-for="product in otherProducts" :key="product.name" class="p-1">
+          <li class="font-bold text-xl text-white" :href="product.href">
+            {{ product.name }}
+          </li>
+        </ul>
       </div>
-      <div class="text-center mx-auto my-auto col-span-1">
+      <div class="text-cente r mx-auto my-auto col-span-1">
         <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
         <div class="p-1 text-white">
           <ul>
-            <li class="text-white">0649370011</li>
-            <li class="text-white">0649370033</li>
-            <li class="text-white">0649370066</li>
+            <li class="font-bold text-xl text-white">0649370011</li>
+            <li class="font-bold text-xl text-white">0649370033</li>
+            <li class="font-bold text-xl text-white">0649370066</li>
           </ul>
         </div>
       </div>
