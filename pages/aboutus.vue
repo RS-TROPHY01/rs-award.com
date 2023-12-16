@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: "RS AWARD | เกี่ยวกับเรา",
+  description:
+    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
+  keywords: "RS AWARD, โล่รางวัล",
+});
+</script>
 <template>
   <div>
     <section class="flex items-center py-4 font-poppins">

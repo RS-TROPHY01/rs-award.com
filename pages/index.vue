@@ -21,11 +21,11 @@
 </template>
 <script setup lang="ts">
 useSeoMeta({
-  title: "RS AWARD | โล่รางวัล",
-  ogTitle: "My Amazing Site",
-  description: "This is my amazing site, let me tell you all about it.",
-  ogDescription: "This is my amazing site, let me tell you all about it.",
-  ogImage: "/panel/hero_section.webp",
-  twitterCard: "summary_large_image",
+  title:
+    "RS AWARD | จัดจำหน่าย โล่รางวัลคริสตัล โล่อะคริลิค คุณภาพดีแข็งแรงทนทาน",
+  description:
+    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน มีให้เลือกทั้งโล่รางวัลคริสตัล โล่รางวัลอะคริลิค โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
+  keywords:
+    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, โล่อะคริลิค, โล่รางวัลอะคริลิค",
 });
 </script>
