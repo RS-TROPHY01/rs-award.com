@@ -14,10 +14,9 @@ useSeoMeta({
 });
 </script>
 <template>
-  <div class="bg-white py-4">
-    <div class="mx-auto items-center gap-x-8 gap-y-16 p-2 lg:px-8">
-      <h1 class="text-center">โล่รางวัล</h1>
-      <AppCategoryForSale />
-    </div>
+  <div class="mx-auto items-center gap-x-8 gap-y-16 p-2">
+    <h1 class="text-center">โล่รางวัล</h1>
+    <AppHeroSection />
+    <AppCategory />
   </div>
 </template>
