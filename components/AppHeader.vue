@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-white sticky top-0 z-50 mx-auto">
+  <header class="w-full bg-gray-900 sticky top-0 z-50 mx-auto rounded-b-xl">
     <div class="max-w-7xl grid grid-1 md:grid-cols-3 mx-auto">
       <router-link
         :to="{ path: '/' }"
@@ -11,9 +11,9 @@
             alt="RS MEDAL Logo"
             width="40px"
             height="40px"
-            class="m-auto"
+            class="m-1"
           />
-          <h2 class="m-auto font-bold">RS AWARD</h2>
+          <h2 class="m-auto text-white font-bold">RS AWARD</h2>
         </div>
       </router-link>
       <span class="text-center m-auto col-span-1 md:col-span-2">
@@ -21,7 +21,7 @@
           v-for="(link, index) in links"
           :key="index"
           :to="link.href"
-          class="px-2"
+          class="px-2 text-white font-bold"
         >
           {{ link.text }}
         </router-link>
