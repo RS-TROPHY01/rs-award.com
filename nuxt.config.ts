@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content", "nuxt-gtag"],
+  modules: ["@nuxt/content", "nuxt-gtag", "@nuxt/image"],
   gtag: {
     id: "GTM-M86WK6ZW",
   },
