@@ -18,12 +18,9 @@
     </div>
   </div>
 </template>
-
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-
 const fs = ref([{ src: "1" }]);
-
 onMounted(() => {
   for (let i = 2; i <= 13; i++) {
     fs.value.push({ src: i.toString() });

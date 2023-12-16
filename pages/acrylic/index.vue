@@ -28,7 +28,6 @@
     </div>
   </div>
 </template>
-
 <script setup lang="ts">
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิค",
@@ -37,7 +36,6 @@ useSeoMeta({
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, ราคาโล่รางวัลอะคริลิค",
 });
-
 const images = [
   {
     name: "โล่อะคริลิคสำเร็จรูป",

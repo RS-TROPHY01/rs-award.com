@@ -19,7 +19,6 @@ const { slug } = useRoute().params;
     </ContentDoc>
   </article>
 </template>
-
 <style>
 .content p:not(:last-child),
 .content li:not(:last-child),

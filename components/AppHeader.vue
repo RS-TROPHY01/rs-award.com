@@ -29,7 +29,6 @@
     </div>
   </header>
 </template>
-
 <script>
 export default {
   data() {
