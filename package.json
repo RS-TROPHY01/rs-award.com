@@ -1,53 +1,24 @@
 {
-  "name": "rs-award.com",
-  "version": "1.0.0",
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write ./"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@heroicons/react": "^2.0.18",
-    "@prisma/client": "^5.6.0",
-    "axios": "^1.6.2",
-    "classnames": "^2.3.2",
-    "cssnano": "^6.0.1",
-    "next": "^14.0.3",
-    "next-auth": "^4.24.5",
-    "next-seo": "^6.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.48.2",
-    "react-router-dom": "^6.16.0",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier . --write  "
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.12",
-    "@types/node": "^20.4.4",
-    "@types/react": "^18.2.15",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.45.0",
-    "eslint-config-next": "^13.4.12",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-tailwindcss": "^3.13.0",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "lint-staged": "^13.2.3",
-    "postcss": "^8.4.27",
-    "prettier": "^3.0.0",
-    "prisma": "^5.6.0",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "nuxt": "^3.8.2",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
   },
-  "license": "ISC"
+  "dependencies": {
+    "@nuxt/content": "^2.9.0",
+    "prettier": "^3.1.1"
+  }
 }
