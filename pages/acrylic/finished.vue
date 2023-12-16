@@ -17,7 +17,16 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
+
+const fs = ref([{ src: "1" }]);
+
+onMounted(() => {
+  for (let i = 2; i <= 13; i++) {
+    fs.value.push({ src: i.toString() });
+  }
+});
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
   description:
@@ -25,16 +34,4 @@ useSeoMeta({
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสำเร็จรูป, โล่รางวัลอะคริลิคสำเร็จรูป, ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
 });
-export default {
-  data() {
-    return {
-      fs: [{ src: "1" }],
-    };
-  },
-  mounted() {
-    for (let i = 2; i <= 13; i++) {
-      this.fs.push({ src: i.toString() });
-    }
-  },
-};
 </script>

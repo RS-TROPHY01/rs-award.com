@@ -14,8 +14,7 @@
     </div>
   </div>
 </template>
-
-<script>
+<script setup lang="ts">
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสั่งทำ",
   description:
@@ -23,18 +22,12 @@ useSeoMeta({
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
 });
-export default {
-  data() {
-    return {
-      cs: [{ src: "0" }],
-    };
-  },
-  mounted() {
-    for (let i = 1; i <= 13; i++) {
-      this.cs.push({
-        src: i.toString(),
-      });
-    }
-  },
-};
+const cs = ref([{ src: "0" }]);
+onMounted(() => {
+  for (let i = 1; i <= 13; i++) {
+    cs.value.push({
+      src: i.toString(),
+    });
+  }
+});
 </script>

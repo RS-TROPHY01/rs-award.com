@@ -14,8 +14,9 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
 
-<script>
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลคริสตัล",
   description:
@@ -23,16 +24,12 @@ useSeoMeta({
   keywords:
     "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, ราคาโล่รางวัลคริสตัล",
 });
-export default {
-  data() {
-    return {
-      photos: [{ src: "1" }],
-    };
-  },
-  mounted() {
-    for (let i = 2; i <= 10; i++) {
-      this.photos.push({ src: i.toString() });
-    }
-  },
-};
+
+const photos = ref([{ src: "1" }]);
+
+onMounted(() => {
+  for (let i = 2; i <= 10; i++) {
+    photos.value.push({ src: i.toString() });
+  }
+});
 </script>

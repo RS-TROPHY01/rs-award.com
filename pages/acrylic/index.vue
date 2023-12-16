@@ -29,7 +29,7 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิค",
   description:
@@ -37,24 +37,19 @@ useSeoMeta({
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, ราคาโล่รางวัลอะคริลิค",
 });
-export default {
-  data() {
-    return {
-      images: [
-        {
-          name: "โล่อะคริลิคสำเร็จรูป",
-          link: "/acrylic/finished",
-          src: "/panel/finished_acrylic.webp",
-          alt: "",
-        },
-        {
-          name: "โล่อะคริลิคสั่งทำ",
-          link: "/acrylic/custom",
-          src: "/panel/custom_acrylic.webp",
-          alt: "",
-        },
-      ],
-    };
+
+const images = [
+  {
+    name: "โล่อะคริลิคสำเร็จรูป",
+    link: "/acrylic/finished",
+    src: "/panel/finished_acrylic.webp",
+    alt: "",
   },
-};
+  {
+    name: "โล่อะคริลิคสั่งทำ",
+    link: "/acrylic/custom",
+    src: "/panel/custom_acrylic.webp",
+    alt: "",
+  },
+];
 </script>
