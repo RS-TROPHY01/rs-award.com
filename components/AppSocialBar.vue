@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto rounded-t-lg shadow bg-gray-900 sticky bottom-0 w-full py-1 z-50"
+    class="mx-auto rounded-t-xl shadow bg-gray-900 sticky bottom-0 w-full py-1 z-50"
   >
     <div
       class="mx-auto max-w-screen-xl px-3 flex justify-center items-center w-full h-full"
