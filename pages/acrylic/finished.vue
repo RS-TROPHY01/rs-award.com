@@ -10,7 +10,7 @@
       <div v-for="(f, index) in fs" :key="index">
         <img
           :src="'/catalog/finished_acrylic/' + f.src + '.jpg'"
-          alt="Finished Acrylic"
+          alt="โล่รางวัลอะคริลิคสำเร็จรูป"
         />
       </div>
     </div>

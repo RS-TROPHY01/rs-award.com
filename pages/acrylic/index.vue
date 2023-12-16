@@ -18,7 +18,7 @@
             :src="image.src"
             :alt="image.alt"
             class="w-full h-auto rounded-lg bg-gray-100"
-            aria-label=""
+            aria-label="โล่รางวัลอะคริลิค"
           />
           <div class="mx-auto text-center">
             <h2>{{ image.name }}</h2>
