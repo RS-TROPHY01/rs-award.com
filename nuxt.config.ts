@@ -1,4 +1,11 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "th",
+      },
+    },
+  },
   devtools: {
     enabled: true,
     timeline: {

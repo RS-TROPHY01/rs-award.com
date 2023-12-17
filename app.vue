@@ -5,14 +5,3 @@
     </div>
   </NuxtLayout>
 </template>
-<script>
-export default {
-  head() {
-    return {
-      htmlAttrs: {
-        lang: "th",
-      },
-    };
-  },
-};
-</script>
