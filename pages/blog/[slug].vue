@@ -47,4 +47,7 @@ const { slug } = useRoute().params;
 .content h5 {
   @apply text-base font-bold;
 }
+.content a {
+  @apply text-blue-700;
+}
 </style>
