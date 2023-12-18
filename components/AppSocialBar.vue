@@ -18,7 +18,7 @@
               :src="social.src"
               :alt="social.alt"
               :title="social.alt"
-              sizes="40px"
+              sizes="50px"
               :class="{
                 'transition-transform duration-300 hover:scale-110': true,
                 'lock md:hidden':
