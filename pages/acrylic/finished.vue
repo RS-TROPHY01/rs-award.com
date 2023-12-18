@@ -8,24 +8,17 @@
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
-      <div v-for="(f, index) in fs" :key="index">
-        <NuxtImg
-          :src="'/catalog/finished_acrylic/' + f.src + '.webp'"
-          loading="lazy"
-          alt="โล่รางวัลอะคริลิคสำเร็จรูป"
-        />
-      </div>
+      <NuxtImg
+        v-for="imageIndex in 13"
+        :key="imageIndex"
+        :src="`/catalog/finished_acrylic/${imageIndex}.webp`"
+        loading="lazy"
+        alt="โล่รางวัลอะคริลิคสำเร็จรูป"
+      />
     </div>
   </div>
 </template>
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-const fs = ref([{ src: "1" }]);
-onMounted(() => {
-  for (let i = 2; i <= 13; i++) {
-    fs.value.push({ src: i.toString() });
-  }
-});
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
   description:

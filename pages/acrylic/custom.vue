@@ -9,13 +9,13 @@
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
-      <div v-for="(c, index) in cs" :key="index">
-        <NuxtImg
-          :src="'/catalog/custom_acrylic/' + c.src + '.webp'"
-          loading="lazy"
-          alt="โล่รางวัลอะคริลิคสั่งทำ"
-        />
-      </div>
+      <NuxtImg
+        v-for="index in 14"
+        :key="index"
+        :src="`/catalog/custom_acrylic/${index}.webp`"
+        loading="lazy"
+        alt="โล่รางวัลอะคริลิคสั่งทำ"
+      />
     </div>
   </div>
 </template>
@@ -30,13 +30,5 @@ useSeoMeta({
   ogDescription:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
   ogImage: "/catalog/custom_acrylic/",
-});
-const cs = ref([{ src: "0" }]);
-onMounted(() => {
-  for (let i = 1; i <= 13; i++) {
-    cs.value.push({
-      src: i.toString(),
-    });
-  }
 });
 </script>

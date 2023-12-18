@@ -9,18 +9,18 @@
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
-      <div v-for="(photo, index) in photos" :key="index">
-        <NuxtImg
-          :src="'/catalog/finished_crystal/' + photo.src + '.webp'"
-          loading="lazy"
-          alt="โล่รางวัลคริสตัล"
-        />
-      </div>
+      <NuxtImg
+        v-for="imageIndex in 10"
+        :key="imageIndex"
+        :src="`/catalog/finished_crystal/${imageIndex}.webp`"
+        loading="lazy"
+        sizes="1654px"
+        alt="โล่รางวัลคริสตัล"
+      />
     </div>
   </div>
 </template>
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลคริสตัล",
   description:
@@ -31,11 +31,5 @@ useSeoMeta({
   ogDescription:
     "บริษัทจัดจำหน่ายโล่รางวัลคริสตัลโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   ogImage: "/catalog/finished_crystal/",
-});
-const photos = ref([{ src: "1" }]);
-onMounted(() => {
-  for (let i = 2; i <= 10; i++) {
-    photos.value.push({ src: i.toString() });
-  }
 });
 </script>
