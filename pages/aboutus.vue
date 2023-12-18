@@ -13,10 +13,10 @@ useSeoMeta({
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <div class="relative lg:max-w-md">
-              <NuxtImg
+              <img
                 src="\logo\RSTROPHY.ico"
                 alt="aboutimage"
-                class="relative z-10 object-cover w-full rounded h-96"
+                class="z-10 object-cover w-full rounded h-96"
               />
               <div
                 class="absolute bottom-0 right-0 z-10 p-4 bg-gray-900 rounded shadow -mr-11"
