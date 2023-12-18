@@ -6,7 +6,7 @@
         class="flex items-center font-medium text-gray-900 title-font m-auto"
       >
         <div class="flex gap-2 mx-auto">
-          <img
+          <NuxtImg
             src="\logo\RSTROPHY.ico"
             alt="RS MEDAL Logo"
             width="40px"
