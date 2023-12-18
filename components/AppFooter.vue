@@ -22,12 +22,9 @@
         </div>
       </div>
       <div class="col-span-2 rounded-lg w-full h-60 p-4">
-        <iframe
-          title="RS AWARD Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.01552442906!2d100.54981097587556!3d13.957681286455957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e281423d9ee0cb%3A0xc0c6c349cc115b53!2zUnMgdHJvcGh5IOC4o-C5iOC4p-C4oeC4quC4uOC4guC4luC5ieC4p-C4ouC4o-C4suC4h-C4p-C4seC4pQ!5e0!3m2!1sth!2sth!4v1695441505250!5m2!1sth!2sth"
-          loading="lazy"
-          class="w-full h-full rounded-lg"
-        ></iframe>
+        <a href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8">
+          <img src="/panel/map.png"
+        /></a>
       </div>
     </div>
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-4">
