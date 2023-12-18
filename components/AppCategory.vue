@@ -4,7 +4,6 @@
       <NuxtImg
         src="/panel/finished_crystal.webp"
         width="480"
-        height="270"
         alt="โล่คริสตัล"
         class="w-full h-auto rounded-lg bg-gray-100"
         aria-label="โล่คริสตัล"
