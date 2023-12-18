@@ -13,7 +13,7 @@
         <NuxtLink to="/crystal" class="m-1">
           <h2>โล่คริสตัล</h2>
         </NuxtLink>
-        <p>โล่รางวัลคริสตัล แข็งแรงทนทาน</p>
+        <p>โล่รางวัลคริสตัล ทำจากวัสดุแข็งแรง <br />คุณภาพดี ราคาโรงงาน</p>
         <NuxtLink to="/crystal">
           <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
@@ -33,7 +33,10 @@
         <NuxtLink to="/acrylic/finished" class="m-1">
           <h2>โล่อะคริลิคสำเร็จรูป</h2>
         </NuxtLink>
-        <p>โล่รางวัลอะคริลิคสำเร็จรูป แข็งแรงทนทาน</p>
+        <p>
+          โล่รางวัลอะคริลิคสำเร็จรูป แข็งแรงทนทาน<br />มีให้เลือกหลากหลาย
+          ตามความต้องการ
+        </p>
         <NuxtLink to="/acrylic/finished">
           <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
@@ -53,7 +56,7 @@
         <NuxtLink to="/acrylic/custom" class="m-1">
           <h2>โล่อะคริลิคสั่งทำ</h2>
         </NuxtLink>
-        <p>โล่รางวัลอะคริลิคสั่งทำ แข็งแรง ราคาถูก</p>
+        <p>โล่รางวัลอะคริลิคสั่งทำ ราคาถูก <br />ออกแบบฟรี ตามความต้องการ</p>
         <NuxtLink to="/acrylic/custom">
           <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
