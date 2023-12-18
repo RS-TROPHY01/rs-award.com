@@ -28,8 +28,7 @@
         >
           <NuxtImg
             class="mx-auto"
-            width="733px"
-            height="254"
+            sizes="733px"
             alt="RS AWARD GOOGLE MAP"
             src="/panel/map.png"
         /></a>
