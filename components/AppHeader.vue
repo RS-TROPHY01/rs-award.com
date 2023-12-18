@@ -7,10 +7,8 @@
       >
         <div class="flex gap-2 mx-auto">
           <img
-            src="\logo\RSTROPHY.ico"
+            src="\logo\RSTROPHY.webp"
             alt="RS MEDAL Logo"
-            width="40px"
-            height="40px"
             class="m-1"
           />
           <h2 class="m-auto text-white font-bold">RS AWARD</h2>
@@ -37,7 +35,6 @@ export default {
         { text: "หน้าแรก", href: "/" },
         { text: "โล่รางวัล", href: "/award" },
         { text: "เกี่ยวกับเรา", href: "/aboutus" },
-        { text: "บทความ", href: "/blog" },
       ],
     };
   },
