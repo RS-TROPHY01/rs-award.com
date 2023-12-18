@@ -1,5 +1,5 @@
 <template>
-  <div class="gap-4 sm:gap-6 lg:gap-8 py-2">
+  <div class="gap-4 py-2">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <img
         src="/panel/finished_crystal.webp"
@@ -13,11 +13,7 @@
         </NuxtLink>
         <p>โล่รางวัลคริสตัล แข็งแรงทนทาน</p>
         <NuxtLink to="/crystal">
-          <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl"
-          >
-            ดูเพิ่มเติม
-          </button>
+          <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
       </div>
     </div>
@@ -34,11 +30,7 @@
         </NuxtLink>
         <p>โล่รางวัลอะคริลิคสำเร็จรูป แข็งแรงทนทาน</p>
         <NuxtLink to="/acrylic/finished">
-          <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl"
-          >
-            ดูเพิ่มเติม
-          </button>
+          <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
       </div>
     </div>
@@ -55,11 +47,7 @@
         </NuxtLink>
         <p>โล่รางวัลอะคริลิคสั่งทำ แข็งแรง ราคาถูก</p>
         <NuxtLink to="/acrylic/custom">
-          <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl"
-          >
-            ดูเพิ่มเติม
-          </button>
+          <AppButton> ดูเพิ่มเติม </AppButton>
         </NuxtLink>
       </div>
     </div>

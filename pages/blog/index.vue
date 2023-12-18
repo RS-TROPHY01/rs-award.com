@@ -39,11 +39,12 @@ useSeoMeta({
               <NuxtLink :to="'blog/' + blog.slug">{{ blog.title }}</NuxtLink>
             </h3>
             <p>{{ blog.description }}</p>
+            <div class="mx-auto">
+              <AppButton> ดูเพิ่มเติม </AppButton>
+            </div>
           </div>
         </div>
       </div>
     </ContentList>
   </div>
 </template>
-
-<style></style>
