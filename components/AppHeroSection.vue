@@ -1,6 +1,6 @@
 <template>
   <div class="relative h-full">
-    <img
+    <NuxtImg
       src="/panel/hero_section.webp"
       width="0"
       height="0"

@@ -13,7 +13,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <NuxtImg
               loading="lazy"
               :src="social.src"
               :alt="social.alt"

@@ -22,8 +22,16 @@
         </div>
       </div>
       <div class="col-span-2 rounded-lg w-full h-60 p-4">
-        <a href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8">
-          <img src="/panel/map.png"
+        <a
+          aria-label="RS AWARD GOOGLE MAP"
+          href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
+        >
+          <NuxtImg
+            class="mx-auto"
+            width="733px"
+            height="254"
+            alt="RS AWARD GOOGLE MAP"
+            src="/panel/map.png"
         /></a>
       </div>
     </div>

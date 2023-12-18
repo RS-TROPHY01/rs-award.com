@@ -2,14 +2,14 @@
   <div>
     <div class="mx-auto max-w-4xl">
       <h1 class="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
-      <img class="mx-auto" src="/panel/finished_acrylic.webp" />
+      <NuxtImg class="mx-auto" src="/panel/finished_acrylic.webp" />
       <div class="mx-auto">
         บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสำเร็จรูปโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
       <div v-for="(f, index) in fs" :key="index">
-        <img
+        <NuxtImg
           :src="'/catalog/finished_acrylic/' + f.src + '.webp'"
           loading="lazy"
           alt="โล่รางวัลอะคริลิคสำเร็จรูป"

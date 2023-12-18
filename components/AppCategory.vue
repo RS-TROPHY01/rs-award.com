@@ -1,8 +1,10 @@
 <template>
   <div class="gap-4 py-2">
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img
+      <NuxtImg
         src="/panel/finished_crystal.webp"
+        width="480"
+        height="270"
         alt="โล่คริสตัล"
         class="w-full h-auto rounded-lg bg-gray-100"
         aria-label="โล่คริสตัล"
@@ -18,8 +20,10 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img
+      <NuxtImg
         src="/panel/finished_acrylic.webp"
+        width="480"
+        height="270"
         alt="โล่อะคริลิคสำเร็จรูป"
         class="w-full h-auto rounded-lg bg-gray-100 order-1 md:order-2"
         aria-label="โล่อะคริลิคสำเร็จรูป"
@@ -35,8 +39,10 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img
+      <NuxtImg
         src="/panel/custom_acrylic.webp"
+        width="480"
+        height="270"
         alt="โล่อะคริลิคสั่งทำ"
         class="w-full h-auto rounded-lg bg-gray-100"
         aria-label="โล่อะคริลิคสั่งทำ"

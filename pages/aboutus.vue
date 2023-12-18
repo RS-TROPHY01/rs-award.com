@@ -13,7 +13,7 @@ useSeoMeta({
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <div class="relative lg:max-w-md">
-              <img
+              <NuxtImg
                 src="\logo\RSTROPHY.ico"
                 alt="aboutimage"
                 class="relative z-10 object-cover w-full rounded h-96"
@@ -42,11 +42,11 @@ useSeoMeta({
             <div class="m-auto">
               <h3>วิธีการชำระเงิน</h3>
               <div class="flex m-auto p-2">
-                <img class="w-10" src="\logo\SCB.webp" />
+                <NuxtImg class="w-10" src="\logo\SCB.webp" />
                 <div class="my-auto p-1">329 2 66927 8</div>
               </div>
               <div class="flex m-auto p-2">
-                <img class="w-10" src="\logo\KBank.webp" />
+                <NuxtImg class="w-10" src="\logo\KBank.webp" />
                 <div class="my-auto p-1">018 8 83682 8</div>
               </div>
             </div>
