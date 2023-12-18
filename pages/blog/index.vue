@@ -30,7 +30,7 @@ useSeoMeta({
                 v-if="blog.thumbnail"
                 :src="blog.thumbnail"
                 :alt="blog.title"
-                class=""
+                :title="blog.title"
               />
             </NuxtLink>
           </div>

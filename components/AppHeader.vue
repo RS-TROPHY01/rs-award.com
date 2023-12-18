@@ -9,6 +9,7 @@
           <img
             src="\logo\RSTROPHY.webp"
             alt="RS MEDAL Logo"
+            title="RS MEDAL Logo"
             width="50px"
             class="m-1"
           />

@@ -17,6 +17,7 @@
           <NuxtImg
             :src="image.src"
             :alt="image.alt"
+            :title="image.alt"
             class="w-full h-auto rounded-lg bg-gray-100"
             aria-label="โล่รางวัลอะคริลิค"
           />

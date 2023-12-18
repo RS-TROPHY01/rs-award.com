@@ -10,6 +10,7 @@ const { slug } = useRoute().params;
           v-if="doc.thumbnail"
           :src="doc.thumbnail"
           :alt="doc.title"
+          :title="doc.title"
           class="w-full"
         />
         <div class="mt-4 content p-5 text-left">

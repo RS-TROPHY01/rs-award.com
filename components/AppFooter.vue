@@ -30,6 +30,7 @@
             class="mx-auto"
             sizes="733px"
             alt="RS AWARD GOOGLE MAP"
+            title="RS AWARD GOOGLE MAP"
             src="/panel/map.png"
         /></a>
       </div>

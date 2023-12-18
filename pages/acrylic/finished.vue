@@ -2,7 +2,12 @@
   <div>
     <div class="mx-auto max-w-4xl">
       <h1 class="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
-      <NuxtImg class="mx-auto" src="/panel/finished_acrylic.webp" />
+      <NuxtImg
+        alt="โล่รางวัลอะคริลิคสำเร็จรูป"
+        title="โล่รางวัลอะคริลิคสำเร็จรูป"
+        class="mx-auto"
+        src="/panel/finished_acrylic.webp"
+      />
       <div class="mx-auto">
         บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสำเร็จรูปโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </div>
@@ -14,6 +19,7 @@
         :src="`/catalog/finished_acrylic/${imageIndex}.webp`"
         loading="lazy"
         alt="โล่รางวัลอะคริลิคสำเร็จรูป"
+        title="โล่รางวัลอะคริลิคสำเร็จรูป"
       />
     </div>
   </div>

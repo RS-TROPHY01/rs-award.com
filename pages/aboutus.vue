@@ -15,7 +15,8 @@ useSeoMeta({
             <div class="relative lg:max-w-md">
               <img
                 src="\logo\RSTROPHY.webp"
-                alt="aboutimage"
+                alt="logo"
+                title="logo"
                 class="z-10 object-cover w-full rounded h-96"
               />
               <div
