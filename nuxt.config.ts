@@ -23,4 +23,11 @@ export default defineNuxtConfig({
   gtag: {
     id: "GTM-M86WK6ZW",
   },
+  vite: {
+    server: {
+      headers: {
+        "Cache-Control": "max-age=31536000",
+      },
+    },
+  },
 });
