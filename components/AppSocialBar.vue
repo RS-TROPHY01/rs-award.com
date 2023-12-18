@@ -17,8 +17,7 @@
               loading="lazy"
               :src="social.src"
               :alt="social.alt"
-              width="50"
-              height="50"
+              sizes="40px"
               :class="{
                 'transition-transform duration-300 hover:scale-110': true,
                 'lock md:hidden':
