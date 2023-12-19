@@ -7,15 +7,17 @@ const { slug } = useRoute().params;
       <head>
         <meta name="keyword" :content="doc.keyword" />
       </head>
-      <div class="text-center p-5">
-        <h1 class="text-4xl font-bold mx-auto">{{ doc.title }}</h1>
-        <img
-          v-if="doc.thumbnail"
-          :src="doc.thumbnail"
-          :alt="doc.title"
-          :title="doc.title"
-        />
-        <div class="mt-4 content p-5 text-left">
+      <div class="text-center p-5 grid grid-cols-1 md:grid-cols-2 m-auto">
+        <div>
+          <img
+            v-if="doc.thumbnail"
+            :src="doc.thumbnail"
+            :alt="doc.title"
+            :title="doc.title"
+          />
+        </div>
+        <div class="m-4 content p-5 text-left my-auto">
+          <h1 class="text-4xl font-bold mx-auto">{{ doc.title }}</h1>
           <ContentRenderer :value="doc" />
         </div>
       </div>
