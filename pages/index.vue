@@ -14,6 +14,8 @@
     <div class="py-4">
       <h1 class="text-center">โล่รางวัล</h1>
       <AppCategory />
+      <AppPassWork />
+      <AppOurCustomer />
     </div>
   </div>
 </template>
