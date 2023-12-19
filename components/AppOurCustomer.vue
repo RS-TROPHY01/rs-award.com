@@ -18,14 +18,14 @@ export default {
   data() {
     return {
       customers: [
-        { name: "KFC", src: "/customer/kfc.png" },
-        { name: "Lazada", src: "/customer/lazada.png" },
+        { name: "KFC", src: "/customer/kfc.webp" },
+        { name: "Lazada", src: "/customer/lazada.webp" },
         { name: "Shopee", src: "/customer/shopee.webp" },
         { name: "SCB", src: "/customer/SCB.webp" },
         { name: "KBank", src: "/customer/KBank.webp" },
         { name: "BBL", src: "/customer/BBL.webp" },
-        { name: "GSB", src: "/customer/GSB.png" },
-        { name: "KTB", src: "/customer/KTB.jpg" },
+        { name: "GSB", src: "/customer/GSB.webp" },
+        { name: "KTB", src: "/customer/KTB.webp" },
       ],
     };
   },
