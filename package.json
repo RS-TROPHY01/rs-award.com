@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "rs-award.com",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "format": "prettier . --write  "
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -16,7 +16,7 @@
     "nuxt": "^3.8.2",
     "nuxt-gtag": "^1.1.1",
     "nuxt-simple-sitemap": "^4.1.17",
-    "vitest": "^0.33.0",
+    "vitest": "^1.0.4",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },
