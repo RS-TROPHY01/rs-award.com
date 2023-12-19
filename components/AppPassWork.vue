@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto">
     <h2 class="text-center">ผลงานที่ผ่านมา</h2>
-    <div id="pastwork">
+    <div class="gap-2 grid grid-cols-3">
       <img
         v-for="index in 3"
         :key="index"
@@ -14,10 +14,3 @@
     </div>
   </div>
 </template>
-<style>
-#pastwork {
-  gap: 0.5rem /* 8px */;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-</style>

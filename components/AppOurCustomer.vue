@@ -1,6 +1,6 @@
 <template>
   <h2 class="text-center p-2">ลูกค้าของเรา</h2>
-  <div id="customer">
+  <div class="gap-2 grid grid-cols-4">
     <div v-for="(customer, index) in customers" :key="index" class="m-auto">
       <img
         width="240px"
@@ -13,13 +13,6 @@
     </div>
   </div>
 </template>
-<style>
-#customer {
-  gap: 0.5rem /* 8px */;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-</style>
 <script>
 export default {
   data() {
