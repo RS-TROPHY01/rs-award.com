@@ -26,3 +26,9 @@ body {
 img {
   @apply rounded-xl;
 }
+.scaleup {
+  @apply transition-transform duration-200 hover:scale-105;
+}
+button {
+  @apply transition-transform duration-200 hover:scale-105;
+}
