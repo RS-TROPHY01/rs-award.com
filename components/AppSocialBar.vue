@@ -39,7 +39,7 @@ export default {
       socials: [
         {
           name: "ถ้วยรางวัลราคาโรงงาน RS Trophy",
-          href: "https://www.m.me/RSTrophy01",
+          href: "https://www.facebook.com/RSTrophy01",
           src: "/logo/facebook.svg",
           alt: "facebook logo",
         },
