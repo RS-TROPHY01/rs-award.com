@@ -34,31 +34,36 @@
   </div>
   <!-- Footer -->
   <footer class="shadow bg-gray-900 bottom-0 z-50">
-    <div
-      class="grid grid-cols-2 lg:grid-cols-4 text-white mx-auto text-center p-4 max-w-7xl"
-    >
-      <div class="text-center mx-auto my-auto col-span-1">
-        <p class="text-center p-2 font-bold text-2xl text-white">สินค้าอื่นๆ</p>
-        <div
-          v-for="contact in contacts"
-          :key="contact.name"
-          class="p-1 scaleup"
-        >
-          <a class="font-bold text-xl text-white scaleup" :href="contact.href">
-            {{ contact.name }}
-          </a>
+    <div class="text-white mx-auto text-center p-4 max-w-7xl">
+      <div class="grid grid-cols-2">
+        <div class="text-center mx-auto my-auto">
+          <p class="text-center p-2 font-bold text-2xl text-white">
+            สินค้าอื่นๆ
+          </p>
+          <div
+            v-for="contact in contacts"
+            :key="contact.name"
+            class="p-1 scaleup"
+          >
+            <a
+              class="font-bold text-xl text-white scaleup"
+              :href="contact.href"
+            >
+              {{ contact.name }}
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="text-center mx-auto my-auto col-span-1">
-        <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
-        <div v-for="tel in tels" :key="tel.name" class="p-1 scaleup">
-          <a class="font-bold text-xl text-white scaleup" :href="tel.href">
-            {{ tel.name }}
-          </a>
+        <div class="text-center mx-auto my-auto">
+          <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
+          <div v-for="tel in tels" :key="tel.name" class="p-1 scaleup">
+            <a class="font-bold text-xl text-white scaleup" :href="tel.href">
+              {{ tel.name }}
+            </a>
+          </div>
         </div>
       </div>
       <!-- Goole Map -->
-      <div class="rounded-lg w-full h-60 p-4 col-span-2 scaleup">
+      <div class="rounded-lg w-full h-60 p-4 scaleup">
         <a
           aria-label="RS AWARD GOOGLE MAP"
           href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
@@ -68,6 +73,8 @@
             alt="RS AWARD GOOGLE MAP"
             title="RS AWARD GOOGLE MAP"
             src="/panel/map.webp"
+            width="733px"
+            height="254px"
         /></a>
       </div>
     </div>
