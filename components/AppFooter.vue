@@ -1,4 +1,5 @@
 <template>
+  <!-- Social -->
   <div
     class="mx-auto rounded-t-xl shadow bg-gray-900 sticky bottom-0 w-full py-1 z-50"
   >
@@ -21,7 +22,7 @@
               width="40px"
               height="40px"
               :class="{
-                'transition-transform duration-300 hover:scale-110': true,
+                scaleup: true,
                 'lock md:hidden':
                   social.alt === 'phone logo' || social.alt === 'gmail logo',
               }"
@@ -38,22 +39,26 @@
     >
       <div class="text-center mx-auto my-auto col-span-1">
         <p class="text-center p-2 font-bold text-2xl text-white">สินค้าอื่นๆ</p>
-        <div v-for="contact in contacts" :key="contact.name" class="p-1">
-          <a class="font-bold text-xl text-white" :href="contact.href">
+        <div
+          v-for="contact in contacts"
+          :key="contact.name"
+          class="p-1 scaleup"
+        >
+          <a class="font-bold text-xl text-white scaleup" :href="contact.href">
             {{ contact.name }}
           </a>
         </div>
       </div>
       <div class="text-center mx-auto my-auto col-span-1">
         <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
-        <div v-for="tel in tels" :key="tel.name" class="p-1">
-          <a class="font-bold text-xl text-white" :href="tel.href">
+        <div v-for="tel in tels" :key="tel.name" class="p-1 scaleup">
+          <a class="font-bold text-xl text-white scaleup" :href="tel.href">
             {{ tel.name }}
           </a>
         </div>
       </div>
       <!-- Goole Map -->
-      <div class="rounded-lg w-full h-60 p-4 col-span-2">
+      <div class="rounded-lg w-full h-60 p-4 col-span-2 scaleup">
         <a
           aria-label="RS AWARD GOOGLE MAP"
           href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
