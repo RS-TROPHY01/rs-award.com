@@ -1,21 +1,23 @@
 <template>
   <h2 class="text-center p-2">ลูกค้าของเรา</h2>
-  <div id="loop">
-    <div v-for="(customer, index) in customers" :key="index">
-      <img width="100px" height="100px" :src="customer.src" />
+  <div id="customer">
+    <div v-for="(customer, index) in customers" :key="index" class="m-auto">
+      <img
+        width="240px"
+        class="m-auto"
+        :alt="customer.name"
+        :title="customer.name"
+        :aria-label="customer.name"
+        :src="customer.src"
+      />
     </div>
   </div>
 </template>
 <style>
-#loop {
+#customer {
   gap: 0.5rem /* 8px */;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-@media (min-width: 768px) {
-  #loop {
-    grid-template-columns: repeat(10, minmax(0, 1fr));
-  }
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 </style>
 <script>
@@ -28,6 +30,9 @@ export default {
         { name: "Shopee", src: "/customer/shopee.webp" },
         { name: "SCB", src: "/customer/SCB.webp" },
         { name: "KBank", src: "/customer/KBank.webp" },
+        { name: "BBL", src: "/customer/BBL.webp" },
+        { name: "GSB", src: "/customer/GSB.png" },
+        { name: "KTB", src: "/customer/KTB.jpg" },
       ],
     };
   },
