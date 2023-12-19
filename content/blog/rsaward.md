@@ -1,11 +1,12 @@
 ---
 title: "RS AWARD"
 draft: false
-thumbnail: "/test/1600900.png"
+thumbnail: "/blog/rsaward.jpg"
 slug: rsaward
 description: "ทำความรู้จักกับ RS AWARD"
+keyword: "RS AWARD, ทำความรู้จักกับ RS AWARD"
 ---
 
 ---
 
-This is a [โล่รางวัล](https://labs.google.com/search/error?source=ntp&authuser=0&is=i)
+RS AWARD บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน มีให้เลือกทั้ง โล่รางวัลคริสตัล โล่รางวัลอะคริลิคสำเร็จรูป โล่รางวัลอะคริลิคสั่งทำ RS AWARD มีทีมกราฟิกดีไซน์ให้บริการในการออกแบบพร้อมให้คำปรึกษาฟรี โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
