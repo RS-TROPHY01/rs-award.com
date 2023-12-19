@@ -38,6 +38,7 @@ export default {
         { text: "หน้าแรก", href: "/" },
         { text: "โล่รางวัล", href: "/award" },
         { text: "เกี่ยวกับเรา", href: "/aboutus" },
+        { text: "บทความ", href: "/blog" },
       ],
     };
   },

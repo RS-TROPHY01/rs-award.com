@@ -40,7 +40,9 @@ useSeoMeta({
             </h3>
             <p>{{ blog.description }}</p>
             <div class="mx-auto">
-              <AppButton> ดูเพิ่มเติม </AppButton>
+              <NuxtLink :to="'blog/' + blog.slug"
+                ><AppButton> ดูเพิ่มเติม </AppButton></NuxtLink
+              >
             </div>
           </div>
         </div>

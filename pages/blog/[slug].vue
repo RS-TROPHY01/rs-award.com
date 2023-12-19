@@ -5,13 +5,12 @@ const { slug } = useRoute().params;
   <article class="bg-white rounded-2xl">
     <ContentDoc :path="`/blog/${slug}`" v-slot="{ doc }">
       <div class="text-center p-5">
-        <h1 class="text-4xl font-bold lg:w-2/3 mx-auto">{{ doc.title }}</h1>
+        <h1 class="text-4xl font-bold mx-auto">{{ doc.title }}</h1>
         <img
           v-if="doc.thumbnail"
           :src="doc.thumbnail"
           :alt="doc.title"
           :title="doc.title"
-          class="w-full"
         />
         <div class="mt-4 content p-5 text-left">
           <ContentRenderer :value="doc" />
