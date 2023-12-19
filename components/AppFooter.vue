@@ -67,7 +67,7 @@
             class="mx-auto"
             alt="RS AWARD GOOGLE MAP"
             title="RS AWARD GOOGLE MAP"
-            src="/panel/map.png"
+            src="/panel/map.webp"
         /></a>
       </div>
     </div>
