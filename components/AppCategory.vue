@@ -3,7 +3,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2">
       <img
         src="/panel/finished_crystal.webp"
-        width="480"
+        width="603"
+        height="339"
         alt="โล่คริสตัล"
         title="โล่คริสตัล"
         class="w-full h-auto rounded-lg bg-gray-100"
@@ -22,8 +23,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2">
       <img
         src="/panel/finished_acrylic.webp"
-        width="480"
-        height="270"
+        width="603"
+        height="339"
         alt="โล่อะคริลิคสำเร็จรูป"
         title="โล่อะคริลิคสำเร็จรูป"
         class="w-full h-auto rounded-lg bg-gray-100 order-1 md:order-2"
@@ -45,8 +46,8 @@
     <div class="grid grid-cols-1 md:grid-cols-2">
       <img
         src="/panel/custom_acrylic.webp"
-        width="480"
-        height="270"
+        width="603"
+        height="339"
         alt="โล่อะคริลิคสั่งทำ"
         title="โล่อะคริลิคสั่งทำ"
         class="w-full h-auto rounded-lg bg-gray-100"
