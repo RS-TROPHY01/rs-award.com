@@ -7,7 +7,8 @@
       class="m-auto scaleup"
     >
       <img
-        width="240px"
+        width="194px"
+        height="194px"
         class="m-auto"
         :alt="customer.name"
         :title="customer.name"
@@ -22,18 +23,18 @@ export default {
   data() {
     return {
       customers: [
-        { name: "ธนาคารไทยพาณิชย์", src: "/customer/scb.webp" },
-        { name: "ธนาคารกสิกรไทย", src: "/customer/kbank.webp" },
-        { name: "ธนาคารกรุงเทพ", src: "/customer/bbl.webp" },
-        { name: "ธนาคารออมสิน", src: "/customer/gsb.webp" },
-        { name: "ธนาคารกรุงไทย", src: "/customer/ktb.webp" },
-        { name: "Lazada", src: "/customer/lazada.webp" },
-        { name: "Shopee", src: "/customer/shopee.webp" },
-        { name: "ช่องเวิร์คพอยท์", src: "/customer/workpoint.webp" },
-        { name: "KFC", src: "/customer/kfc.webp" },
-        { name: "Toyota", src: "/customer/toyota.webp" },
-        { name: "ปูนซิเมนต์ไทย", src: "/customer/scg.webp" },
-        { name: "การท่าอากาศยานแห่งประเทศไทย", src: "/customer/aot.webp" },
+        { name: "ธนาคารไทยพาณิชย์", src: "/logo/scb.webp" },
+        { name: "ธนาคารกสิกรไทย", src: "/logo/kbank.webp" },
+        { name: "ธนาคารกรุงเทพ", src: "/logo/bbl.webp" },
+        { name: "ธนาคารออมสิน", src: "/logo/gsb.webp" },
+        { name: "ธนาคารกรุงไทย", src: "/logo/ktb.webp" },
+        { name: "Lazada", src: "/logo/lazada.webp" },
+        { name: "Shopee", src: "/logo/shopee.webp" },
+        { name: "ช่องเวิร์คพอยท์", src: "/logo/workpoint.webp" },
+        { name: "KFC", src: "/logo/kfc.webp" },
+        { name: "Toyota", src: "/logo/toyota.webp" },
+        { name: "ปูนซิเมนต์ไทย", src: "/logo/scg.webp" },
+        { name: "การท่าอากาศยานแห่งประเทศไทย", src: "/logo/aot.webp" },
       ],
     };
   },
