@@ -31,7 +31,6 @@ const { slug } = useRoute().params;
 .content table:not(:last-child) {
   @apply mb-4;
 }
-
 .content h1 {
   @apply text-3xl font-bold;
 }
@@ -41,11 +40,8 @@ const { slug } = useRoute().params;
 .content h3 {
   @apply text-xl font-bold;
 }
-.content h4 {
-  @apply text-lg font-bold;
-}
-.content h5 {
-  @apply text-base font-bold;
+.content * {
+  @apply text-lg;
 }
 .content a {
   @apply text-blue-700;
