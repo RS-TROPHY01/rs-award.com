@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto">
     <h2 class="text-center">ผลงานที่ผ่านมา</h2>
-    <div class="gap-2 grid grid-cols-3">
+    <div class="gap-2 grid grid-cols-3 md:grid-cols-4">
       <img
         v-for="index in 3"
         :key="index"
