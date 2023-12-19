@@ -13,15 +13,26 @@ useSeoMeta({
 });
 </script>
 <template>
-  <AppHeroSection />
+  <div class="relative h-full">
+    <img
+      src="/panel/hero_section.webp"
+      class="w-full h-auto"
+      alt="RS AWARD PANEL"
+      title="RS AWARD PANEL"
+      aria-label="RS AWARD PANEL"
+      width="1278px"
+      height="369px"
+    />
+  </div>
   <div class="mx-auto items-center gap-x-8 gap-y-16 p-2 lg:px-8">
     <div class="mx-auto max-w-4xl">
       <h2 class="text-3xl text-gray-900 sm:text-4xl mx-auto">
         RS AWARD โล่รางวัลคุณภาพดี
       </h2>
       <p class="mt-4 text-gray-500 mx-auto">
-        บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน
-        มีให้เลือกทั้งโล่รางวัลคริสตัล โล่รางวัลอะคริลิค
+        RS AWARD บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน มีให้เลือกทั้ง
+        โล่รางวัลคริสตัล โล่รางวัลอะคริลิคสำเร็จรูป โล่รางวัลอะคริลิคสั่งทำ
+        พร้อมมีทีมกราฟิกดีไซน์บริการการออกแบบฟรี
         โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </p>
     </div>
@@ -35,6 +46,8 @@ useSeoMeta({
             v-for="index in 3"
             :key="index"
             :src="`/pastwork/${index}.webp`"
+            width="295px"
+            height="295px"
             loading="lazy"
             alt="ผลงานโล่รางวัลที่ผ่านมา"
             title="ผลงานโล่รางวัลที่ผ่านมา"
