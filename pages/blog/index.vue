@@ -23,9 +23,13 @@ useSeoMeta({
       v-slot="{ list }"
     >
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-        <div v-for="blog in list" :key="blog._path" class="grid grid-cols-2">
+        <div
+          v-for="blog in list"
+          :key="blog._path"
+          class="grid grid-cols-2 gap-2"
+        >
           <div class="p-1">
-            <NuxtLink :to="'blog/' + blog.slug">
+            <NuxtLink :to="'/blog/' + blog.slug">
               <img
                 v-if="blog.thumbnail"
                 :src="blog.thumbnail"
@@ -36,11 +40,11 @@ useSeoMeta({
           </div>
           <div class="my-auto p-1">
             <h3 class="text-2xl font-bold">
-              <NuxtLink :to="'blog/' + blog.slug">{{ blog.title }}</NuxtLink>
+              <NuxtLink :to="'/blog/' + blog.slug">{{ blog.title }}</NuxtLink>
             </h3>
             <p>{{ blog.description }}</p>
             <div class="mx-auto">
-              <NuxtLink :to="'blog/' + blog.slug"
+              <NuxtLink :to="'/blog/' + blog.slug"
                 ><AppButton> ดูเพิ่มเติม </AppButton></NuxtLink
               >
             </div>
