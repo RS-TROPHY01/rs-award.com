@@ -5,47 +5,30 @@
     >
       <div class="text-center mx-auto my-auto col-span-1">
         <p class="text-center p-2 font-bold text-2xl text-white">สินค้าอื่นๆ</p>
-        <ul v-for="product in otherProducts" :key="product.name" class="p-1">
-          <li class="font-bold text-xl text-white" :href="product.href">
-            {{ product.name }}
-          </li>
-        </ul>
-      </div>
-      <div class="text-cente r mx-auto my-auto col-span-1">
-        <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
-        <div class="p-1 text-white">
-          <ul>
-            <li class="font-bold text-xl text-white">0649370011</li>
-            <li class="font-bold text-xl text-white">0649370033</li>
-            <li class="font-bold text-xl text-white">0649370066</li>
-          </ul>
+        <div v-for="contact in contacts" :key="contact.name" class="p-1">
+          <a class="font-bold text-xl text-white" :href="contact.href">
+            {{ contact.name }}
+          </a>
         </div>
       </div>
-      <div class="col-span-2 rounded-lg w-full h-60 p-4">
-        <a
-          aria-label="RS AWARD GOOGLE MAP"
-          href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
-        >
-          <img
-            class="mx-auto"
-            alt="RS AWARD GOOGLE MAP"
-            title="RS AWARD GOOGLE MAP"
-            src="/panel/map.png"
-        /></a>
+      <div class="text-center mx-auto my-auto col-span-1">
+        <p class="text-center p-2 font-bold text-2xl text-white">เบอร์โทร</p>
+        <div v-for="tel in tels" :key="tel.name" class="p-1">
+          <a class="font-bold text-xl text-white" :href="tel.href">
+            {{ tel.name }}
+          </a>
+        </div>
       </div>
+      <AppGoogleMap class="col-span-2" />
     </div>
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-4">
-      <span class="block text-sm sm:text-center text-gray-400">
-        © 2023 <router-link to="/">RS AWARD</router-link>. All Rights Reserved.
-      </span>
-    </div>
+    <AppCopyRight />
   </footer>
 </template>
 <script>
 export default {
   data() {
     return {
-      otherProducts: [
+      contacts: [
         {
           name: "ถ้วยรางวัล",
           href: "https://www.rs-trophy.com/",
@@ -57,6 +40,20 @@ export default {
         {
           name: "โล่รางวัล",
           href: "https://www.rs-award.com/",
+        },
+      ],
+      tels: [
+        {
+          name: "0649370011",
+          href: "tel:0649370011",
+        },
+        {
+          name: "0649370033",
+          href: "tel:0649370033",
+        },
+        {
+          name: "0649370066",
+          href: "tel:0649370066",
         },
       ],
     };
