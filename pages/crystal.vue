@@ -2,7 +2,7 @@
   <div>
     <div class="mx-auto max-w-4xl">
       <h1 class="text-center py-2">โล่รางวัลคริสตัล</h1>
-      <NuxtImg
+      <img
         alt="โล่รางวัลคริสตัล"
         title="โล่รางวัลคริสตัล"
         class="mx-auto"
@@ -14,12 +14,11 @@
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
-      <NuxtImg
+      <img
         v-for="imageIndex in 10"
         :key="imageIndex"
         :src="`/catalog/finished_crystal/${imageIndex}.webp`"
         loading="lazy"
-        sizes="1654px"
         title="โล่รางวัลคริสตัล"
         alt="โล่รางวัลคริสตัล"
       />

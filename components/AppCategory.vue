@@ -1,7 +1,7 @@
 <template>
   <div class="gap-4 py-2">
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <NuxtImg
+      <img
         src="/panel/finished_crystal.webp"
         width="480"
         alt="โล่คริสตัล"
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <NuxtImg
+      <img
         src="/panel/finished_acrylic.webp"
         width="480"
         height="270"
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <NuxtImg
+      <img
         src="/panel/custom_acrylic.webp"
         width="480"
         height="270"

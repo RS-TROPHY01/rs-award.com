@@ -10,7 +10,8 @@
             src="\logo\RSTROPHY.webp"
             alt="RS MEDAL Logo"
             title="RS MEDAL Logo"
-            width="50px"
+            width="40px"
+            height="40px"
             class="m-1"
           />
           <h2 class="m-auto text-white font-bold">RS AWARD</h2>

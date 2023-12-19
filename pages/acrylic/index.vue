@@ -14,7 +14,7 @@
         class="relative h-full transition-transform duration-300 hover:scale-105"
       >
         <router-link :to="image.link">
-          <NuxtImg
+          <img
             :src="image.src"
             :alt="image.alt"
             :title="image.alt"

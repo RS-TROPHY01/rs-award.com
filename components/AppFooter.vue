@@ -26,9 +26,8 @@
           aria-label="RS AWARD GOOGLE MAP"
           href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
         >
-          <NuxtImg
+          <img
             class="mx-auto"
-            sizes="733px"
             alt="RS AWARD GOOGLE MAP"
             title="RS AWARD GOOGLE MAP"
             src="/panel/map.png"

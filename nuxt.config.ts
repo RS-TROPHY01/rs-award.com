@@ -19,15 +19,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content", "nuxt-gtag", "@nuxt/image"],
+  modules: ["@nuxt/content", "nuxt-gtag"],
   gtag: {
     id: "GTM-M86WK6ZW",
-  },
-  vite: {
-    server: {
-      headers: {
-        "Cache-Control": "max-age=31536000",
-      },
-    },
   },
 });

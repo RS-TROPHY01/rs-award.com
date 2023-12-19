@@ -2,7 +2,7 @@
   <div>
     <div class="mx-auto max-w-4xl">
       <h1 class="text-center py-2">โล่รางวัลอะคริลิคสำเร็จรูป</h1>
-      <NuxtImg
+      <img
         alt="โล่รางวัลอะคริลิคสำเร็จรูป"
         title="โล่รางวัลอะคริลิคสำเร็จรูป"
         class="mx-auto"
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
-      <NuxtImg
+      <img
         v-for="imageIndex in 13"
         :key="imageIndex"
         :src="`/catalog/finished_acrylic/${imageIndex}.webp`"
