@@ -34,7 +34,7 @@ useSeoMeta({
           <img
             v-for="index in 3"
             :key="index"
-            :src="`/pastwork/${index}.jpg`"
+            :src="`/pastwork/${index}.webp`"
             loading="lazy"
             alt="ผลงานโล่รางวัลที่ผ่านมา"
             title="ผลงานโล่รางวัลที่ผ่านมา"
