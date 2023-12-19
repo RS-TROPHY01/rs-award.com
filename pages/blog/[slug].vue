@@ -4,6 +4,9 @@ const { slug } = useRoute().params;
 <template>
   <article class="bg-white rounded-2xl">
     <ContentDoc :path="`/blog/${slug}`" v-slot="{ doc }">
+      <head>
+        <meta name="keyword" :content="doc.keyword" />
+      </head>
       <div class="text-center p-5">
         <h1 class="text-4xl font-bold mx-auto">{{ doc.title }}</h1>
         <img
