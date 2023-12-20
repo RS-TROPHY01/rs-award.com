@@ -36,7 +36,7 @@ export default {
     return {
       links: [
         { text: "หน้าแรก", href: "/" },
-        { text: "โล่รางวัล", href: "/award" },
+        { text: "สินค้า", href: "/product" },
         { text: "เกี่ยวกับเรา", href: "/aboutus" },
         { text: "บทความ", href: "/blog" },
       ],
