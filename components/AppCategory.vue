@@ -16,7 +16,7 @@
         </NuxtLink>
         <p>โล่รางวัลคริสตัล ทำจากวัสดุแข็งแรง <br />คุณภาพดี ราคาโรงงาน</p>
         <NuxtLink to="/crystal">
-          <AppButton> ดูเพิ่มเติม </AppButton>
+          <button>ดูเพิ่มเติม</button>
         </NuxtLink>
       </div>
     </div>
@@ -39,7 +39,7 @@
           ตามความต้องการ
         </p>
         <NuxtLink to="/acrylic/finished">
-          <AppButton> ดูเพิ่มเติม </AppButton>
+          <button>ดูเพิ่มเติม</button>
         </NuxtLink>
       </div>
     </div>
@@ -59,7 +59,7 @@
         </NuxtLink>
         <p>โล่รางวัลอะคริลิคสั่งทำ ราคาถูก <br />ออกแบบฟรี ตามความต้องการ</p>
         <NuxtLink to="/acrylic/custom">
-          <AppButton> ดูเพิ่มเติม </AppButton>
+          <button>ดูเพิ่มเติม</button>
         </NuxtLink>
       </div>
     </div>
