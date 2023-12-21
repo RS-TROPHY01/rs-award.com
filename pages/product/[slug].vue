@@ -1,14 +1,14 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
-      <img :src="product.img" />
+      <img :src="'/product/' + product.name + '.jpg'" />
     </div>
     <div class="m-auto grid grid-cols-1 text-center">
       <h1 class="p-4">{{ product.name }}</h1>
       <div>
         <div v-if="product.size[0].name == 'no size'">
           <div>{{ product.size[0].price }} บาท</div>
-          <div class="grid grid-cols-3 gap-2">
+          <div class="">
             <div>กว้าง: {{ product.size[0].w }}</div>
             <div>ยาว: {{ product.size[0].l }}</div>
             <div>สูง: {{ product.size[0].h }}</div>

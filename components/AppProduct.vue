@@ -9,7 +9,7 @@
     >
       <div class="scaleup">
         <NuxtLink :to="`/product/${product.name}`">
-          <img :src="product.img" />
+          <img :src="'/product/' + product.name + '.jpg'" />
         </NuxtLink>
         <NuxtLink :to="`/product/${product.name}`">
           <h2 class="text-lg font-semibold text-center p-1">
