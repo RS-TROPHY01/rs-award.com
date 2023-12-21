@@ -13,17 +13,7 @@ useSeoMeta({
 });
 </script>
 <template>
-  <div class="relative h-full">
-    <img
-      src="/panel/hero_section.webp"
-      class="w-full h-auto"
-      alt="RS AWARD PANEL"
-      title="RS AWARD PANEL"
-      aria-label="RS AWARD PANEL"
-      width="1278px"
-      height="369px"
-    />
-  </div>
+  <AppHeroSection />
   <div class="mx-auto items-center gap-x-8 gap-y-16 p-2 lg:px-8">
     <div class="mx-auto max-w-4xl">
       <h2 class="text-3xl text-gray-900 sm:text-4xl mx-auto">
