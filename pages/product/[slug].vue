@@ -7,20 +7,20 @@
       <h1 class="p-4">{{ product.name }}</h1>
       <div>
         <div v-if="product.size[0].name == 'no size'">
-          <div>{{ product.size[0].price }} บาท</div>
-          <div class="">
-            <div>กว้าง: {{ product.size[0].w }} mm</div>
-            <div>ยาว: {{ product.size[0].l }} mm</div>
-            <div>สูง: {{ product.size[0].h }} mm</div>
+          <div class="text-2xl">{{ product.size[0].price }} บาท</div>
+          <div>
+            <div class="text-2xl">กว้าง: {{ product.size[0].w }} mm</div>
+            <div class="text-2xl">ยาว: {{ product.size[0].l }} mm</div>
+            <div class="text-2xl">สูง: {{ product.size[0].h }} mm</div>
           </div>
         </div>
         <div v-else>
-          <div v-for="(item, index) in product.size" :key="index">
+          <div v-for="(item, index) in product.size" :key="index" class="p-2">
             <div class="">
-              <div>{{ item.name }}</div>
-              <div>กว้าง: {{ item.w }} mm</div>
-              <div>ยาว: {{ item.l }} mm</div>
-              <div>สูง: {{ item.h }} mm</div>
+              <div class="text-2xl">{{ item.name }} {{ item.price }} บาท</div>
+              <div class="text-2xl">กว้าง: {{ item.w }} mm</div>
+              <div class="text-2xl">ยาว: {{ item.l }} mm</div>
+              <div class="text-2xl">สูง: {{ item.h }} mm</div>
             </div>
           </div>
         </div>
