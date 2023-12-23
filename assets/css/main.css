@@ -6,13 +6,13 @@
   @apply text-lg;
 }
 h1 {
-  @apply text-3xl md:text-4xl;
+  @apply text-4xl;
 }
 h2 {
-  @apply text-2xl md:text-2xl;
+  @apply text-3xl;
 }
 h3 {
-  @apply text-base md:text-xl;
+  @apply text-2xl;
 }
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -34,4 +34,7 @@ button {
 }
 button {
   @apply bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-xl;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
