@@ -7,7 +7,7 @@
         height="339"
         alt="โล่คริสตัล"
         title="โล่คริสตัล"
-        class="w-full h-auto rounded-lg bg-gray-100"
+        class="w-full h-auto rounded-lg bg-gray-100 scaleup"
         aria-label="โล่คริสตัล"
       />
       <div class="m-auto text-center">
@@ -27,7 +27,7 @@
         height="339"
         alt="โล่อะคริลิคสำเร็จรูป"
         title="โล่อะคริลิคสำเร็จรูป"
-        class="w-full h-auto rounded-lg bg-gray-100 order-1 md:order-2"
+        class="w-full h-auto rounded-lg bg-gray-100 order-1 md:order-2 scaleup"
         aria-label="โล่อะคริลิคสำเร็จรูป"
       />
       <div class="m-auto text-center order-2 md:order-1">
@@ -50,7 +50,7 @@
         height="339"
         alt="โล่อะคริลิคสั่งทำ"
         title="โล่อะคริลิคสั่งทำ"
-        class="w-full h-auto rounded-lg bg-gray-100"
+        class="w-full h-auto rounded-lg bg-gray-100 scaleup"
         aria-label="โล่อะคริลิคสั่งทำ"
       />
       <div class="m-auto text-center">
