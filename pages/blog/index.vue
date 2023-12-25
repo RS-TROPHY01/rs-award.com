@@ -39,9 +39,9 @@ useSeoMeta({
             </NuxtLink>
           </div>
           <div class="my-auto p-1">
-            <h3 class="text-2xl font-bold">
+            <h2 class="text-2xl font-bold">
               <NuxtLink :to="'/blog/' + blog.slug">{{ blog.title }}</NuxtLink>
-            </h3>
+            </h2>
             <p>{{ blog.description }}</p>
             <div class="mx-auto">
               <NuxtLink :to="'/blog/' + blog.slug"

@@ -43,11 +43,11 @@ useSeoMeta({
             <div class="m-auto">
               <h3>วิธีการชำระเงิน</h3>
               <div class="flex m-auto p-2">
-                <img class="w-10" src="\logo\scb.webp" />
+                <img class="w-10" src="\logo\scb.webp" alt="scb logo" />
                 <div class="my-auto p-1">329 2 66927 8</div>
               </div>
               <div class="flex m-auto p-2">
-                <img class="w-10" src="\logo\kbank.webp" />
+                <img class="w-10" src="\logo\kbank.webp" alt="kbank logo" />
                 <div class="my-auto p-1">018 8 83682 8</div>
               </div>
             </div>
