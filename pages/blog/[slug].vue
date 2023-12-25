@@ -14,6 +14,8 @@ const { slug } = useRoute().params;
             :src="doc.thumbnail"
             :alt="doc.title"
             :title="doc.title"
+            width="592px"
+            height="353px"
           />
         </div>
         <div class="m-4 content p-5 text-left my-auto">

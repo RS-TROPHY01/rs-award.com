@@ -32,8 +32,8 @@ useSeoMeta({
           </div>
           <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0">
             <div class="pl-4 mb-6 border-l-4 border-blue-500">
-              <span class="text-sm uppercase">เกี่ยวกับเรา ?</span>
-              <h1 class="mt-2 text-3xl font-black md:text-5xl">RS AWARD</h1>
+              <h1 class="text-sm uppercase">เกี่ยวกับเรา ?</h1>
+              <h2 class="mt-2 text-3xl font-black md:text-5xl">RS AWARD</h2>
             </div>
             <p class="mb-6 text-base leading-7">
               RS AWARD
@@ -41,7 +41,7 @@ useSeoMeta({
               ราคาย่อมเยา เปี่ยมคุณภาพ
             </p>
             <div class="m-auto">
-              <h3>วิธีการชำระเงิน</h3>
+              <h2>วิธีการชำระเงิน</h2>
               <div class="flex m-auto p-2">
                 <img class="w-10" src="\logo\scb.webp" alt="scb logo" />
                 <div class="my-auto p-1">329 2 66927 8</div>

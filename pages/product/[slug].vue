@@ -34,19 +34,6 @@
   </div>
 </template>
 <script>
-useSeoMeta({
-  title: "RS AWARD | โล่รางวัล " + product.name,
-  description:
-    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน มีให้เลือกทั้งโล่รางวัลคริสตัล โล่รางวัลอะคริลิค โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  keywords:
-    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, โล่รางวัล" +
-    product.name,
-  ogTitle: "RS AWARD | โล่รางวัล " + product.name,
-  ogDescription:
-    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, โล่รางวัล" +
-    product.name,
-  ogImage: "/product/" + product.name + ".webp'",
-});
 import productCrystal from "@/assets/productCrystal";
 let products = [...productCrystal];
 let product;

@@ -8,10 +8,21 @@
       class="bg-white m-auto"
     >
       <div class="scaleup text-center">
-        <NuxtLink :to="`/product/${product.name}`">
-          <img :src="'/product/' + product.name + '.webp'" />
+        <NuxtLink
+          :to="`/product/${product.name}`"
+          :aria-label="'โล่รางวัล ' + product.name"
+        >
+          <img
+            :src="'/product/' + product.name + '.webp'"
+            :alt="'โล่รางวัล ' + product.name"
+            width="600px"
+            height="900px "
+          />
         </NuxtLink>
-        <NuxtLink :to="`/product/${product.name}`">
+        <NuxtLink
+          :to="`/product/${product.name}`"
+          :aria-label="'โล่รางวัล ' + product.name"
+        >
           <h2 class="text-lg font-semibold p-1">
             โล่รางวัล
             {{ product.name }}
