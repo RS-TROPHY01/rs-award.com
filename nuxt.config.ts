@@ -19,11 +19,22 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content", "nuxt-gtag", "nuxt-simple-sitemap"],
+  modules: [
+    "@nuxt/content",
+    "nuxt-gtag",
+    "@nuxtseo/module",
+    "nuxt-simple-robots",
+    "nuxt-schema-org",
+    "nuxt-simple-sitemap",
+  ],
   gtag: {
     id: "GTM-M86WK6ZW",
   },
   site: {
     url: "http://www.rs-award.com",
+  },
+  robots: {
+    UserAgent: "*",
+    Disallow: [],
   },
 });
