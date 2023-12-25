@@ -6,7 +6,15 @@
         บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสำเร็จรูปโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </div>
     </div>
-    <AppProduct :products="productAcrylic" />
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+      <img
+        v-for="index in 13"
+        :key="index"
+        :src="`/catalog/finished_acrylic/${index}.webp`"
+        loading="lazy"
+        alt="โล่รางวัลอะคริลิคสั่งทำ"
+      />
+    </div>
   </div>
 </template>
 <script setup lang="ts">

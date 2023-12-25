@@ -29,9 +29,8 @@
   </div>
 </template>
 <script>
-import productAcrylic from "@/assets/productAcrylic";
 import productCrystal from "@/assets/productCrystal";
-let products = [...productAcrylic, ...productCrystal];
+let products = [...productCrystal];
 let product;
 export default {
   data() {
