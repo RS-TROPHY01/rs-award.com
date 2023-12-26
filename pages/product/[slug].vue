@@ -32,6 +32,12 @@
       </div>
     </div>
   </div>
+  <SchemaOrgProduct
+    :name="'โล่รางวัล ' + product.name"
+    :sku="product.name"
+    :image="'/product/' + product.name + '.webp'"
+    :offers="product.size[0].price"
+  />
 </template>
 <script>
 import productCrystal from "@/assets/productCrystal";

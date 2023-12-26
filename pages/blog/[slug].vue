@@ -23,6 +23,13 @@ const { slug } = useRoute().params;
           <ContentRenderer :value="doc" />
         </div>
       </div>
+      <SchemaOrgArticle
+        :headline="doc.title"
+        :description="doc.description"
+        :image="doc.thumbnail"
+        :date-published="doc.datePublished"
+        :date-modified="doc.dateModified"
+      />
     </ContentDoc>
   </article>
 </template>
