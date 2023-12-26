@@ -5,6 +5,8 @@ thumbnail: "/blog/rsaward.jpg"
 slug: rsaward
 description: "ทำความรู้จักกับ RS AWARD"
 keyword: "RS AWARD, ทำความรู้จักกับ RS AWARD"
+datePublished: "2024-01-01"
+dateModified: "2024-01-01"
 ---
 
 ---
