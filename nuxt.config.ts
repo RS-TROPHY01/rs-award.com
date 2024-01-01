@@ -45,6 +45,12 @@ export default defineNuxtConfig({
   },
   robots: {
     UserAgent: "*",
-    Disallow: [],
+    Allow: [],
+  },
+  sitemap: {
+    defaults: {
+      changefreq: "daily",
+      lastmod: new Date(),
+    },
   },
 });
