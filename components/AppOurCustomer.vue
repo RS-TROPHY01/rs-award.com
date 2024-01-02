@@ -1,6 +1,6 @@
 <template>
   <h2 class="text-center p-2">ลูกค้าของเรา</h2>
-  <div class="gap-2 grid grid-cols-4 md:grid-cols-6">
+  <div class="gap-2 grid grid-cols-4 md:grid-cols-6 max-w-4xl mx-auto">
     <div
       v-for="(customer, index) in customers"
       :key="index"
