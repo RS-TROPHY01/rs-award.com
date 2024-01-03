@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4"
+    class="container mx-auto grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"
   >
     <div
       v-for="product in products"
