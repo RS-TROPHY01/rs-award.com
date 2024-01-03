@@ -1,7 +1,13 @@
 <script setup lang="ts">
 useSeoMeta({
   title: "RS AWARD | บทความ",
+  ogTitle: "RS AWARD | บทความ",
+  twitterTitle: "RS AWARD | บทความ",
   description: "บทความ",
+  ogDescription: "บทความ",
+  twitterDescription: "บทความ",
+  ogImage: "/panel/hero_section.webp",
+  twitterImage: "/panel/hero_section.webp",
   keywords: "RS AWARD, บทความ",
 });
 </script>

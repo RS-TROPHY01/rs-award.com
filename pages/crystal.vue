@@ -13,14 +13,18 @@
 <script setup lang="ts">
 import productCrystal from "@/assets/productCrystal";
 useSeoMeta({
-  title: "RS AWARD | ราคาโล่รางวัลคริสตัล",
+  title: "RS AWARD | โล่รางวัลคริสตัล",
+  ogTitle: "RS AWARD | โล่รางวัลคริสตัล",
+  twitterTitle: "RS AWARD | โล่รางวัลคริสตัล",
   description:
     "บริษัทจัดจำหน่ายโล่รางวัลคริสตัลโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  keywords:
-    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, ราคาโล่รางวัลคริสตัล",
-  ogTitle: "RS AWARD | ราคาโล่รางวัลคริสตัล",
+  twitterDescription:
+    "บริษัทจัดจำหน่ายโล่รางวัลคริสตัลโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   ogDescription:
     "บริษัทจัดจำหน่ายโล่รางวัลคริสตัลโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   ogImage: "/catalog/finished_crystal/",
+  twitterImage: "/catalog/finished_crystal/",
+  keywords:
+    "RS AWARD, โล่รางวัล, โล่คริสตัล, โล่รางวัลคริสตัล, ราคาโล่รางวัลคริสตัล",
 });
 </script>

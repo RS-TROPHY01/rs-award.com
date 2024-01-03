@@ -1,9 +1,17 @@
 <script setup lang="ts">
 useSeoMeta({
   title: "RS AWARD | เกี่ยวกับเรา",
+  ogTitle: "RS AWARD | เกี่ยวกับเรา",
+  twitterTitle: "RS AWARD | เกี่ยวกับเรา",
   description:
     "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  keywords: "RS AWARD, โล่รางวัล",
+  ogDescription:
+    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
+  twitterDescription:
+    "บริษัทจัดจำหน่ายโล่รางวัลคุณภาพดีแข็งแรงทนทาน โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
+  ogImage: "/panel/hero_section.webp",
+  twitterImage: "/panel/hero_section.webp",
+  keywords: "RS AWARD, เกี่ยวกับเรา",
 });
 </script>
 <template>
