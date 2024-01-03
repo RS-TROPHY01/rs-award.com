@@ -21,8 +21,8 @@ useSeoMeta({
     "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
   twitterDescription:
     "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogImage: "/catalog/finished_acrylic/",
-  twitterImage: "/catalog/finished_acrylic/",
+  ogImage: "/panel/finished_acrylic.webp",
+  twitterImage: "/panel/finished_acrylic.webp",
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสำเร็จรูป, โล่รางวัลอะคริลิคสำเร็จรูป, ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
 });

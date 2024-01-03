@@ -29,8 +29,8 @@ useSeoMeta({
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
   twitterDescription:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  ogImage: "/catalog/custom_acrylic/",
-  twitterImage: "/catalog/custom_acrylic/",
+  ogImage: "/panel/custom_acrylic.webp",
+  twitterImage: "/panel/custom_acrylic.webp",
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
 });
