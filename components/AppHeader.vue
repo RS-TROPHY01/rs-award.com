@@ -14,7 +14,7 @@
             height="40px"
             class="m-1"
           />
-          <h2 class="m-auto text-white font-bold">RS AWARD</h2>
+          <h2 class="m-auto text-white font-bold">RS MEDAL</h2>
         </div>
       </router-link>
       <span class="text-center m-auto col-span-1 md:col-span-2">

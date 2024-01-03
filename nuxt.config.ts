@@ -48,9 +48,6 @@ export default defineNuxtConfig({
     Allow: [],
   },
   sitemap: {
-    defaults: {
-      changefreq: "daily",
-      lastmod: new Date(),
-    },
+    defaults: {},
   },
 });
