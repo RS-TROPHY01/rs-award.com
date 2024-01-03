@@ -99,7 +99,7 @@ export default {
         },
         {
           name: "เหรียญรางวัล",
-          href: "https://www.rs-meddal.com/",
+          href: "https://www.rs-medal.com/",
         },
         {
           name: "โล่รางวัล",
