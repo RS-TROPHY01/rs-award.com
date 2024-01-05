@@ -6,8 +6,8 @@
       alt="RS AWARD PANEL"
       title="RS AWARD PANEL"
       aria-label="RS AWARD PANEL"
-      width="1278px"
-      height="369px"
+      width="1134px"
+      height="327px"
     />
   </div>
 </template>
