@@ -1,7 +1,7 @@
 ---
 title: "RS AWARD"
 draft: false
-thumbnail: "/blog/rsaward.jpg"
+thumbnail: "/panel/finished_acrylic.webp"
 slug: rsaward
 description: "ทำความรู้จักกับ RS AWARD"
 keyword: "RS AWARD, ทำความรู้จักกับ RS AWARD"
