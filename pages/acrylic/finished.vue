@@ -6,11 +6,19 @@
         บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคสำเร็จรูปโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </div>
     </div>
-    <AppProduct :products="productAcrylic" />
+    <AppProduct :products="products" />
   </div>
 </template>
 <script setup lang="ts">
-import productAcrylic from "@/assets/productAcrylic";
+import productAcrylic1000 from "@/assets/Acrylic/productAcrylic1000";
+import productAcrylic3000 from "@/assets/Acrylic/productAcrylic3000";
+import productAcrylic300 from "@/assets/Acrylic/productAcrylic300";
+let products = [
+  ...productAcrylic1000,
+  ...productAcrylic3000,
+  ...productAcrylic300,
+];
+
 useSeoMeta({
   title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
   ogTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",

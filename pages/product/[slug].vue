@@ -40,9 +40,18 @@
   />
 </template>
 <script>
-import productCrystal from "@/assets/productCrystal";
-import productAcrylic from "@/assets/productAcrylic";
-let products = [...productCrystal, ...productAcrylic];
+import productCrystal2000 from "@/assets/Crystal/productCrystal2000";
+import productCrystal20000 from "@/assets/Crystal/productCrystal20000";
+import productAcrylic1000 from "@/assets/Acrylic/productAcrylic1000";
+import productAcrylic3000 from "@/assets/Acrylic/productAcrylic3000";
+import productAcrylic300 from "@/assets/Acrylic/productAcrylic300";
+let products = [
+  ...productCrystal2000,
+  ...productCrystal20000,
+  ...productAcrylic1000,
+  ...productAcrylic3000,
+  ...productAcrylic300,
+];
 let product;
 export default {
   data() {

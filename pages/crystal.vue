@@ -7,11 +7,14 @@
         โดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย
       </div>
     </div>
-    <AppProduct :products="productCrystal" />
+    <AppProduct :products="products" />
   </div>
 </template>
 <script setup lang="ts">
-import productCrystal from "@/assets/productCrystal";
+import productCrystal2000 from "@/assets/Crystal/productCrystal2000";
+import productCrystal20000 from "@/assets/Crystal/productCrystal20000";
+let products = [...productCrystal2000, ...productCrystal20000];
+
 useSeoMeta({
   title: "RS AWARD | โล่รางวัลคริสตัล",
   ogTitle: "RS AWARD | โล่รางวัลคริสตัล",
