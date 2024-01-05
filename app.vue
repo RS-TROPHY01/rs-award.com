@@ -16,7 +16,7 @@
 <script setup>
 useHead({
   htmlAttrs: {
-    lang: "en",
+    lang: "th",
   },
   link: [
     {
