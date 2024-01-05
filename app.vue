@@ -1,9 +1,9 @@
 <template>
-  <NuxtLayout>
-    <div class="py-1 items-center px-2 mx-auto max-w-5xl">
-      <NuxtPage />
-    </div>
-  </NuxtLayout>
+  <AppHeader />
+  <div class="py-1 items-center px-2 mx-auto max-w-5xl">
+    <NuxtPage />
+  </div>
+  <AppFooter />
   <noscript>
     <iframe
       src="https://www.googletagmanager.com/ns.html?id=GTM-M86WK6ZW"
@@ -13,7 +13,7 @@
     ></iframe>
   </noscript>
 </template>
-<script setup>
+<script setup lang="ts">
 useHead({
   htmlAttrs: {
     lang: "th",
