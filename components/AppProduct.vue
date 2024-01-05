@@ -15,8 +15,8 @@
           <img
             :src="'/product/' + product.name + '.webp'"
             :alt="'โล่รางวัล ' + product.name"
-            width="600px"
-            height="900px"
+            width="400px"
+            height="600px"
           />
         </NuxtLink>
         <NuxtLink
