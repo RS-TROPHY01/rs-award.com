@@ -1,15 +1,32 @@
 <template>
   <!-- Social -->
-  <div class="mx-auto rounded-t-xl shadow bg-gray-900 sticky bottom-0 w-full py-1 z-50">
-    <div class="mx-auto max-w-screen-xl px-3 flex justify-center items-center w-full h-full">
+  <div
+    class="mx-auto rounded-t-xl shadow bg-gray-900 sticky bottom-0 w-full py-1 z-50"
+  >
+    <div
+      class="mx-auto max-w-screen-xl px-3 flex justify-center items-center w-full h-full"
+    >
       <div class="flex-shrink-0 flex items-center space-x-4 md:space-x-0">
         <template v-for="(social, index) in socials" :key="index">
-          <a :aria-label="social.alt" :href="social.href" target="_blank" rel="noopener noreferrer">
-            <img loading="lazy" :src="social.src" :alt="social.alt" :title="social.alt" width="40px" height="40px" :class="{
-              scaleup: true,
-              'lock md:hidden':
-                social.alt === 'phone logo' || social.alt === 'gmail logo',
-            }" />
+          <a
+            :aria-label="social.alt"
+            :href="social.href"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              loading="lazy"
+              :src="social.src"
+              :alt="social.alt"
+              :title="social.alt"
+              width="40px"
+              height="40px"
+              :class="{
+                scaleup: true,
+                'lock md:hidden':
+                  social.alt === 'phone logo' || social.alt === 'gmail logo',
+              }"
+            />
           </a>
         </template>
       </div>
@@ -23,8 +40,15 @@
           <p class="text-center p-2 font-bold text-2xl text-white">
             สินค้าอื่นๆ
           </p>
-          <div v-for="contact in contacts" :key="contact.name" class="p-1 scaleup">
-            <a class="font-bold text-xl text-white scaleup" :href="contact.href">
+          <div
+            v-for="contact in contacts"
+            :key="contact.name"
+            class="p-1 scaleup"
+          >
+            <a
+              class="font-bold text-xl text-white scaleup"
+              :href="contact.href"
+            >
               {{ contact.name }}
             </a>
           </div>
@@ -40,9 +64,18 @@
       </div>
       <!-- Goole Map -->
       <div class="rounded-lg w-full h-60 p-4 scaleup">
-        <a aria-label="RS AWARD GOOGLE MAP" href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8">
-          <img class="mx-auto" alt="RS AWARD GOOGLE MAP" title="RS AWARD GOOGLE MAP" src="/panel/map.webp" width="593px"
-            height="206px" /></a>
+        <a
+          aria-label="RS AWARD GOOGLE MAP"
+          href="https://maps.app.goo.gl/U1C7R9aiBJHprLfx8"
+        >
+          <img
+            class="mx-auto"
+            alt="RS AWARD GOOGLE MAP"
+            title="RS AWARD GOOGLE MAP"
+            src="/panel/map.webp"
+            width="593px"
+            height="206px"
+        /></a>
       </div>
     </div>
     <!-- Copy Right -->
