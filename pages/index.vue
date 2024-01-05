@@ -37,9 +37,9 @@ useSeoMeta({
         <h2 class="text-center">ผลงานที่ผ่านมา</h2>
         <div class="gap-2 grid grid-cols-2 md:grid-cols-4">
           <img
-            v-for="index in 4"
+            v-for="index in [3, 4, 5, 6]"
             :key="index"
-            :src="`/pastwork/${index}.webp`"
+            :src="`/custom_acrylic/${index}.webp`"
             width="295px"
             height="295px"
             loading="lazy"

@@ -9,9 +9,9 @@
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
       <img
-        v-for="index in 14"
+        v-for="index in 6"
         :key="index"
-        :src="`/catalog/custom_acrylic/${index}.webp`"
+        :src="`/custom_acrylic/${index}.webp`"
         loading="lazy"
         alt="โล่รางวัลอะคริลิคสั่งทำ"
       />
