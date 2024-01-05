@@ -3,7 +3,6 @@
 Make sure to install the dependencies:
 
 ```bash
-# npm
 npm install
 ```
 
@@ -12,22 +11,31 @@ npm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
 ```
 
 ## Production
 
-Build the application for production:
+Build the application for node js production:
 
 ```bash
-# npm
 npm run build
 ```
 
-Locally preview production build:
+Locally preview node js production build:
 
 ```bash
-# npm
 npm run preview
+```
+
+Build the application for static site:
+
+```bash
+npm run generate
+```
+
+Locally preview static site:
+
+```bash
+npx serve .output/public
 ```
