@@ -8,13 +8,13 @@
         <div class="flex gap-2 mx-auto">
           <img
             src="\logo\RSTROPHY.webp"
-            alt="RS MEDAL Logo"
-            title="RS MEDAL Logo"
+            alt="RS AWARD Logo"
+            title="RS AWARD Logo"
             width="50px"
             height="50px"
             class="m-1"
           />
-          <h2 class="m-auto text-white font-bold">RS MEDAL</h2>
+          <h2 class="m-auto text-white font-bold">RS AWARD</h2>
         </div>
       </router-link>
       <span class="text-center m-auto col-span-1 md:col-span-2">
