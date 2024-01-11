@@ -19,18 +19,19 @@
   </div>
 </template>
 <script setup lang="ts">
+const title = "RS AWARD | ราคาโล่รางวัลอะคริลิคสั่งทำ";
+const description =
+  "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย";
+const image = "/panel/custom_acrylic.webp";
 useSeoMeta({
-  title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  ogTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  twitterTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  description:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogDescription:
-    "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  twitterDescription:
-    "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
-  ogImage: "/panel/custom_acrylic.webp",
-  twitterImage: "/panel/custom_acrylic.webp",
+  title: title,
+  ogTitle: title,
+  twitterTitle: title,
+  description: description,
+  ogDescription: description,
+  twitterDescription: description,
+  ogImage: image,
+  twitterImage: image,
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสั่งทำ, โล่รางวัลอะคริลิคสั่งทำ, ราคาโล่รางวัลอะคริลิคสั่งทำ",
 });

@@ -1,13 +1,16 @@
 <script setup lang="ts">
+const title = "RS AWARD | บทความ";
+const description = "บทความ";
+const image = "/panel/hero_section.webp";
 useSeoMeta({
-  title: "RS AWARD | บทความ",
-  ogTitle: "RS AWARD | บทความ",
-  twitterTitle: "RS AWARD | บทความ",
-  description: "บทความ",
-  ogDescription: "บทความ",
-  twitterDescription: "บทความ",
-  ogImage: "/panel/hero_section.webp",
-  twitterImage: "/panel/hero_section.webp",
+  title: title,
+  ogTitle: title,
+  twitterTitle: title,
+  description: description,
+  ogDescription: description,
+  twitterDescription: description,
+  ogImage: image,
+  twitterImage: image,
   keywords: "RS AWARD, บทความ",
 });
 </script>

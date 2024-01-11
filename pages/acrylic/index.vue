@@ -30,18 +30,19 @@
   </div>
 </template>
 <script setup lang="ts">
+const title = "RS AWARD | ราคาโล่รางวัลอะคริลิค";
+const description =
+  "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย";
+const image = "/catalog/finished_acrylic/";
 useSeoMeta({
-  title: "RS AWARD | ราคาโล่รางวัลอะคริลิค",
-  ogTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิค",
-  twitterTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิค",
-  description:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogDescription:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  twitterDescription:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogImage: "/catalog/finished_acrylic/",
-  twitterImage: "/catalog/finished_acrylic/",
+  title: title,
+  ogTitle: title,
+  twitterTitle: title,
+  description: description,
+  ogDescription: description,
+  twitterDescription: description,
+  ogImage: image,
+  twitterImage: image,
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิค, โล่รางวัลอะคริลิค, ราคาโล่รางวัลอะคริลิค",
 });

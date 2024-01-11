@@ -18,19 +18,19 @@ let products = [
   ...productAcrylic3000,
   ...productAcrylic300,
 ];
-
+const title = "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป";
+const description =
+  "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย";
+const image = "/panel/finished_acrylic.webp";
 useSeoMeta({
-  title: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
-  ogTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
-  twitterTitle: "RS AWARD | ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
-  description:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogDescription:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  twitterDescription:
-    "บริษัทจัดจำหน่ายโล่รางวัลอะคริลิคโดยเรามีทั้งในรูปแบบหน้าร้านและออนไลน์พร้อมบริการจัดส่งทั่วประเทศไทย",
-  ogImage: "/panel/finished_acrylic.webp",
-  twitterImage: "/panel/finished_acrylic.webp",
+  title: title,
+  ogTitle: title,
+  twitterTitle: title,
+  description: description,
+  ogDescription: description,
+  twitterDescription: description,
+  ogImage: image,
+  twitterImage: image,
   keywords:
     "RS AWARD, โล่รางวัล, โล่อะคริลิคสำเร็จรูป, โล่รางวัลอะคริลิคสำเร็จรูป, ราคาโล่รางวัลอะคริลิคสำเร็จรูป",
 });
