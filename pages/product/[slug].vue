@@ -1,7 +1,12 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
-      <img :src="'/product/' + product.name + '.webp'" width="506px" height="758px" :alt="'โล่รางวัล ' + product.name" />
+      <img
+        :src="'/product/' + product.name + '.webp'"
+        width="506px"
+        height="758px"
+        :alt="'โล่รางวัล ' + product.name"
+      />
     </div>
     <div class="m-auto grid grid-cols-1 text-center">
       <h1 class="p-4">{{ product.name }}</h1>
@@ -9,7 +14,8 @@
         <div v-for="(item, index) in product.size" :key="index" class="p-2">
           <div class="">
             <div class="text-2xl">
-              <span v-if="item.name != 'no size'">{{ item.name }}</span>{{ item.price }} บาท
+              <span v-if="item.name != 'no size'">{{ item.name }}</span
+              >{{ item.price }} บาท
             </div>
             <div v-if="item.productWidth != 0" class="text-2xl">
               ตัวโล่กว้าง: {{ item.productWidth }} mm
@@ -35,8 +41,12 @@
       </div>
     </div>
   </div>
-  <SchemaOrgProduct :name="'โล่รางวัล ' + product.name" :sku="product.name" :image="'/product/' + product.name + '.webp'"
-    :offers="product.size[0].price" />
+  <SchemaOrgProduct
+    :name="'โล่รางวัล ' + product.name"
+    :sku="product.name"
+    :image="'/product/' + product.name + '.webp'"
+    :offers="product.size[0].price"
+  />
 </template>
 <script>
 import productCrystal2000 from "@/assets/Crystal/productCrystal2000";
