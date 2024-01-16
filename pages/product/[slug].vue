@@ -1,43 +1,42 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
-      <img
-        :src="'/product/' + product.name + '.webp'"
-        width="506px"
-        height="758px"
-        :alt="'โล่รางวัล ' + product.name"
-      />
+      <img :src="'/product/' + product.name + '.webp'" width="506px" height="758px" :alt="'โล่รางวัล ' + product.name" />
     </div>
     <div class="m-auto grid grid-cols-1 text-center">
       <h1 class="p-4">{{ product.name }}</h1>
       <div>
-        <div v-if="product.size[0].name == 'no size'">
-          <div class="text-2xl">{{ product.size[0].price }} บาท</div>
-          <div>
-            <div class="text-2xl">กว้าง: {{ product.size[0].w }} mm</div>
-            <div class="text-2xl">ยาว: {{ product.size[0].l }} mm</div>
-            <div class="text-2xl">สูง: {{ product.size[0].h }} mm</div>
-          </div>
-        </div>
-        <div v-else>
-          <div v-for="(item, index) in product.size" :key="index" class="p-2">
-            <div class="">
-              <div class="text-2xl">{{ item.name }} {{ item.price }} บาท</div>
-              <div class="text-2xl">กว้าง: {{ item.w }} mm</div>
-              <div class="text-2xl">ยาว: {{ item.l }} mm</div>
-              <div class="text-2xl">สูง: {{ item.h }} mm</div>
+        <div v-for="(item, index) in product.size" :key="index" class="p-2">
+          <div class="">
+            <div class="text-2xl">
+              <span v-if="item.name != 'no size'">{{ item.name }}</span>{{ item.price }} บาท
+            </div>
+            <div v-if="item.productWidth != 0" class="text-2xl">
+              ตัวโล่กว้าง: {{ item.productWidth }} mm
+            </div>
+            <div v-if="item.productLength != 0" class="text-2xl">
+              ตัวโล่ยาว: {{ item.productLength }} mm
+            </div>
+            <div v-if="item.productHeight != 0" class="text-2xl">
+              ตัวโล่สูง: {{ item.productHeight }} mm
+            </div>
+            <!-- Base -->
+            <div v-if="item.baseWidth != 0" class="text-2xl">
+              ฐานกว้าง: {{ item.baseWidth }} mm
+            </div>
+            <div v-if="item.baseLength != 0" class="text-2xl">
+              ฐานยาว: {{ item.baseLength }} mm
+            </div>
+            <div v-if="item.baseHeight != 0" class="text-2xl">
+              ฐานหนา: {{ item.baseHeight }} mm
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <SchemaOrgProduct
-    :name="'โล่รางวัล ' + product.name"
-    :sku="product.name"
-    :image="'/product/' + product.name + '.webp'"
-    :offers="product.size[0].price"
-  />
+  <SchemaOrgProduct :name="'โล่รางวัล ' + product.name" :sku="product.name" :image="'/product/' + product.name + '.webp'"
+    :offers="product.size[0].price" />
 </template>
 <script>
 import productCrystal2000 from "@/assets/Crystal/productCrystal2000";
