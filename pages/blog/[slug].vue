@@ -7,7 +7,7 @@ const { slug } = useRoute().params;
       <head>
         <meta name="keyword" :content="doc.keyword" />
       </head>
-      <div class="text-center p-5 grid grid-cols-1 md:grid-cols-2 m-auto">
+      <div class="text-center p-2 grid grid-cols-1 md:grid-cols-2 m-auto">
         <div>
           <img
             v-if="doc.thumbnail"
@@ -18,7 +18,7 @@ const { slug } = useRoute().params;
             height="353px"
           />
         </div>
-        <div class="m-4 content p-5 text-left my-auto">
+        <div class="m-1 content p-2 text-left my-auto">
           <h1 class="text-4xl font-bold mx-auto">{{ doc.title }}</h1>
           <ContentRenderer :value="doc" />
         </div>
