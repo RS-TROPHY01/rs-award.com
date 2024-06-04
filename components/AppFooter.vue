@@ -105,6 +105,11 @@ export default {
           name: "โล่รางวัล",
           href: "https://www.rs-award.com/",
         },
+        {
+          name: "ริบบิ้น",
+          href: "https://www.rs-ribbon.com/",
+        },
+
       ],
       tels: [
         {
